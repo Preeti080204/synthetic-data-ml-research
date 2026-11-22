@@ -1,0 +1,143 @@
+{
+  "status": "completed",
+  "generator": "ctgan",
+  "seed": 3407,
+  "n_rows": 34189,
+  "n_requested": 34189,
+  "n_training_rows": 34189,
+  "fit_seconds": 141.95068391703535,
+  "timestamp": "2026-11-17T13:03:59+00:00",
+  "hyperparameters": {
+    "epochs": 80,
+    "batch_size": 500,
+    "embedding_dim": 128,
+    "generator_dim": [
+      256,
+      256
+    ],
+    "discriminator_dim": [
+      256,
+      256
+    ],
+    "generator_lr": 0.0002,
+    "generator_decay": 1e-06,
+    "discriminator_lr": 0.0002,
+    "discriminator_decay": 1e-06,
+    "discriminator_steps": 1,
+    "log_frequency": true,
+    "pac": 10,
+    "enable_gpu": false,
+    "verbose": false
+  },
+  "invalid_target_rounds": [
+    {
+      "round": 1,
+      "seed": 3407,
+      "sampled": 34189,
+      "invalid_target": 0
+    }
+  ],
+  "invalid_target_rows": 0,
+  "invalid_target_policy": "resample_until_n",
+  "rows_dropped_silently": false,
+  "domain_checks": {
+    "categorical": {
+      "workclass": {
+        "unseen_levels": [],
+        "unseen_rows": 0,
+        "missing_rows": 0
+      },
+      "education": {
+        "unseen_levels": [],
+        "unseen_rows": 0,
+        "missing_rows": 0
+      },
+      "marital-status": {
+        "unseen_levels": [],
+        "unseen_rows": 0,
+        "missing_rows": 0
+      },
+      "occupation": {
+        "unseen_levels": [],
+        "unseen_rows": 0,
+        "missing_rows": 0
+      },
+      "relationship": {
+        "unseen_levels": [],
+        "unseen_rows": 0,
+        "missing_rows": 0
+      },
+      "race": {
+        "unseen_levels": [],
+        "unseen_rows": 0,
+        "missing_rows": 0
+      },
+      "sex": {
+        "unseen_levels": [],
+        "unseen_rows": 0,
+        "missing_rows": 0
+      },
+      "native-country": {
+        "unseen_levels": [],
+        "unseen_rows": 0,
+        "missing_rows": 0
+      }
+    },
+    "numerical": {
+      "age": {
+        "training_min": 17.0,
+        "training_max": 90.0,
+        "outside_training_range": 0,
+        "missing_rows": 0
+      },
+      "fnlwgt": {
+        "training_min": 13769.0,
+        "training_max": 1490400.0,
+        "outside_training_range": 0,
+        "missing_rows": 0
+      },
+      "education-num": {
+        "training_min": 1.0,
+        "training_max": 16.0,
+        "outside_training_range": 0,
+        "missing_rows": 0
+      },
+      "capital-gain": {
+        "training_min": 0.0,
+        "training_max": 99999.0,
+        "outside_training_range": 0,
+        "missing_rows": 0
+      },
+      "capital-loss": {
+        "training_min": 0.0,
+        "training_max": 4356.0,
+        "outside_training_range": 0,
+        "missing_rows": 0
+      },
+      "hours-per-week": {
+        "training_min": 1.0,
+        "training_max": 99.0,
+        "outside_training_range": 0,
+        "missing_rows": 0
+      }
+    }
+  },
+  "warnings": [],
+  "paths": {
+    "synthetic": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/data/synthetic/main/ctgan/seed_3407/synthetic.csv",
+    "metadata": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/data/synthetic/main/ctgan/seed_3407/metadata.json",
+    "synthesizer": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/data/synthetic/main/ctgan/seed_3407/synthesizer.pkl",
+    "loss": null
+  },
+  "library_versions": {
+    "sdv": "2.2.0",
+    "ctgan": "0.13.0",
+    "copulas": "0.15.0",
+    "rdt": "2.1.0",
+    "sdmetrics": "0.33.0",
+    "torch": "2.15.0",
+    "pandas": "2.3.3"
+  },
+  "accelerator": "cpu",
+  "cache": "miss"
+}

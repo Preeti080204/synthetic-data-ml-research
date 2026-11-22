@@ -1,0 +1,30 @@
+{
+  "generator": "ctgan",
+  "seed": 2024,
+  "spearman_frobenius": 0.34781094995470124,
+  "duplicates": {
+    "synthetic_rows": 34189,
+    "exact_internal_duplicate_rows": 0,
+    "exact_internal_duplicate_rate": 0.0,
+    "exact_training_matches": 0,
+    "exact_training_match_rate": 0.0,
+    "near_duplicate": {
+      "encoding": "ordinal categories and standard-scaled numerics, both fit on the real training partition",
+      "distance": "euclidean",
+      "reference_rows": 8000,
+      "query_rows": 2000,
+      "threshold_rule": "first percentile of training-to-training second-neighbor distances",
+      "threshold": 0.16879647374027829,
+      "synthetic_near_duplicate_rate": 0.012,
+      "median_synthetic_distance": 2.012150819937774,
+      "median_training_distance": 1.4326418622856427,
+      "privacy_guarantee": false
+    },
+    "privacy_guarantee": false
+  },
+  "real_positive_rate": 0.23928749012840386,
+  "synthetic_positive_rate": 0.1938635233554652,
+  "mean_categorical_tv": 0.10645602386732575,
+  "mean_ks": 0.2052804508272641,
+  "test_partition_used": false
+}

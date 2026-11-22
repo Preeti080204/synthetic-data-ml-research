@@ -1,0 +1,785 @@
+{
+  "seed": 42,
+  "load": {
+    "files": [
+      {
+        "source_file": "adult.data",
+        "data_rows": 32561,
+        "banner_lines": 0,
+        "blank_lines": 1,
+        "trailing_period_labels": 0,
+        "sha256": "5b00264637dbfec36bdeaab5676b0b309ff9eb788d63554ca0a249491c86603d",
+        "sha256_matches_project_release": true
+      },
+      {
+        "source_file": "adult.test",
+        "data_rows": 16281,
+        "banner_lines": 1,
+        "blank_lines": 1,
+        "trailing_period_labels": 16281,
+        "sha256": "a2a9044bc167a35b2361efbabec64e89d69ce82d9790d2980119aac5fd7e9c05",
+        "sha256_matches_project_release": true
+      }
+    ],
+    "n_rows": 48842,
+    "n_features": 14,
+    "feature_columns": [
+      "age",
+      "workclass",
+      "fnlwgt",
+      "education",
+      "education-num",
+      "marital-status",
+      "occupation",
+      "relationship",
+      "race",
+      "sex",
+      "capital-gain",
+      "capital-loss",
+      "hours-per-week",
+      "native-country"
+    ],
+    "target_column": "income",
+    "positive_class": ">50K",
+    "negative_class": "<=50K",
+    "rows_removed": 0,
+    "trailing_period_labels": 16281
+  },
+  "inspection": {
+    "class_distribution": [
+      {
+        "income": "<=50K",
+        "count": 37155,
+        "proportion": 0.7607182343065395
+      },
+      {
+        "income": ">50K",
+        "count": 11687,
+        "proportion": 0.23928176569346055
+      }
+    ],
+    "missing": [
+      {
+        "feature": "age",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "workclass",
+        "missing_count": 2799,
+        "missing_percent": 5.730723557593874
+      },
+      {
+        "feature": "fnlwgt",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "education",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "education-num",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "marital-status",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "occupation",
+        "missing_count": 2809,
+        "missing_percent": 5.751197739650301
+      },
+      {
+        "feature": "relationship",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "race",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "sex",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "capital-gain",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "capital-loss",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "hours-per-week",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "feature": "native-country",
+        "missing_count": 857,
+        "missing_percent": 1.7546374022357807
+      }
+    ],
+    "missing_cooccurrence": {
+      "workclass": 2799,
+      "occupation": 2809,
+      "native_country": 857,
+      "workclass_and_occupation": 2799,
+      "any_feature": 3620
+    },
+    "numeric_summary": [
+      {
+        "feature": "age",
+        "count": 48842,
+        "missing": 0,
+        "mean": 38.64358543876172,
+        "std": 13.710509934443557,
+        "min": 17.0,
+        "q1": 28.0,
+        "median": 37.0,
+        "q3": 48.0,
+        "max": 90.0,
+        "skewness": 0.5575803166133181
+      },
+      {
+        "feature": "fnlwgt",
+        "count": 48842,
+        "missing": 0,
+        "mean": 189664.13459727284,
+        "std": 105604.02542315728,
+        "min": 12285.0,
+        "q1": 117550.5,
+        "median": 178144.5,
+        "q3": 237642.0,
+        "max": 1490400.0,
+        "skewness": 1.4388918785218416
+      },
+      {
+        "feature": "education-num",
+        "count": 48842,
+        "missing": 0,
+        "mean": 10.078088530363212,
+        "std": 2.5709727555922566,
+        "min": 1.0,
+        "q1": 9.0,
+        "median": 10.0,
+        "q3": 12.0,
+        "max": 16.0,
+        "skewness": -0.316524856660742
+      },
+      {
+        "feature": "capital-gain",
+        "count": 48842,
+        "missing": 0,
+        "mean": 1079.0676262233324,
+        "std": 7452.019057655394,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0,
+        "max": 99999.0,
+        "skewness": 11.894658996587948
+      },
+      {
+        "feature": "capital-loss",
+        "count": 48842,
+        "missing": 0,
+        "mean": 87.50231358257237,
+        "std": 403.004552124359,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0,
+        "max": 4356.0,
+        "skewness": 4.5698088577384866
+      },
+      {
+        "feature": "hours-per-week",
+        "count": 48842,
+        "missing": 0,
+        "mean": 40.422382375824085,
+        "std": 12.391444024252307,
+        "min": 1.0,
+        "q1": 40.0,
+        "median": 40.0,
+        "q3": 45.0,
+        "max": 99.0,
+        "skewness": 0.2387496572027576
+      }
+    ],
+    "n_unexpected_levels": 0,
+    "unexpected_records": [],
+    "education_one_to_one": true,
+    "n_education_levels": 16,
+    "duplicates": {
+      "exact_duplicate_extra_rows": 52,
+      "exact_duplicate_rows_involved": 101,
+      "conflicting_feature_groups": 5
+    },
+    "numeric_range_violations": {
+      "age_below_17": 0,
+      "age_above_100": 0,
+      "fnlwgt_at_or_below_1": 0,
+      "education_num_outside_1_16": 0,
+      "capital_gain_negative": 0,
+      "capital_loss_negative": 0,
+      "hours_nonpositive": 0,
+      "hours_above_168": 0
+    },
+    "capital_gain_and_loss_both_positive": 0,
+    "figures": {
+      "class_distribution": "results/figures/class_distribution.png",
+      "missing_values": "results/figures/missing_values.png",
+      "numeric_by_income_training": "results/figures/numeric_by_income_training.png",
+      "correlation_heatmap_training": "results/figures/correlation_heatmap_training.png",
+      "income_rate_education_training": "results/figures/income_rate_education_training.png",
+      "income_rate_occupation_training": "results/figures/income_rate_occupation_training.png",
+      "income_rate_marital_status_training": "results/figures/income_rate_marital_status_training.png"
+    }
+  },
+  "audit": {
+    "n_rows": 48842,
+    "sizes": {
+      "train": 34189,
+      "validation": 7326,
+      "test": 7327
+    },
+    "proportions": {
+      "train": 0.6999918103271774,
+      "validation": 0.14999385774538307,
+      "test": 0.1500143319274395
+    },
+    "overlap_source_row_id": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    },
+    "class_counts": {
+      "train": {
+        "<=50K": 26008,
+        ">50K": 8181
+      },
+      "validation": {
+        "<=50K": 5573,
+        ">50K": 1753
+      },
+      "test": {
+        "<=50K": 5574,
+        ">50K": 1753
+      }
+    },
+    "class_proportions": {
+      "train": {
+        "<=50K": 0.7607125098715961,
+        ">50K": 0.23928749012840386
+      },
+      "validation": {
+        "<=50K": 0.7607152607152607,
+        ">50K": 0.23928473928473928
+      },
+      "test": {
+        "<=50K": 0.760747918657022,
+        ">50K": 0.23925208134297804
+      }
+    },
+    "overall_class_counts": {
+      "<=50K": 37155,
+      ">50K": 11687
+    },
+    "overall_class_proportions": {
+      "<=50K": 0.7607182343065395,
+      ">50K": 0.23928176569346055
+    },
+    "exact_duplicate_extra_rows": 52,
+    "exact_duplicate_rows_involved": 101,
+    "cross_partition_duplicate_groups": 26,
+    "cross_partition_duplicate_rows": 54,
+    "conflicting_feature_groups": 5,
+    "test_predictive_metrics_computed": false
+  },
+  "modeling": {
+    "models": {
+      "logistic_regression": {
+        "name": "logistic_regression",
+        "display_name": "Logistic Regression",
+        "params": {
+          "solver": "lbfgs",
+          "max_iter": 2000,
+          "random_state": 42,
+          "C": 0.1,
+          "class_weight": null
+        },
+        "metrics": {
+          "roc_auc": 0.9081203901665484,
+          "f1": 0.6562400255346313,
+          "precision": 0.744927536231884,
+          "recall": 0.5864232743867656,
+          "balanced_accuracy": 0.7616308010189705,
+          "threshold": 0.5,
+          "partition": "validation"
+        },
+        "train_seconds": 0.1849119580583647,
+        "search_seconds": 1.1597721669822931,
+        "n_candidates": 6,
+        "selected_candidate": 1,
+        "n_transformed_features": 108,
+        "warnings": [],
+        "model_path": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/models/logistic_regression.joblib",
+        "decision_threshold": 0.5,
+        "positive_class": ">50K",
+        "trained_on": "train",
+        "scored_on": "validation",
+        "refit_on_validation": false
+      },
+      "random_forest": {
+        "name": "random_forest",
+        "display_name": "Random Forest",
+        "params": {
+          "n_estimators": 200,
+          "max_features": "sqrt",
+          "bootstrap": true,
+          "n_jobs": -1,
+          "random_state": 42,
+          "max_depth": 24,
+          "min_samples_leaf": 5
+        },
+        "metrics": {
+          "roc_auc": 0.9196693290085673,
+          "f1": 0.6836268754076973,
+          "precision": 0.7981721249047982,
+          "recall": 0.5978322875071307,
+          "balanced_accuracy": 0.7751407983381697,
+          "threshold": 0.5,
+          "partition": "validation"
+        },
+        "train_seconds": 1.0022774579701945,
+        "search_seconds": 3.6955733749782667,
+        "n_candidates": 4,
+        "selected_candidate": 4,
+        "n_transformed_features": 108,
+        "warnings": [],
+        "model_path": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/models/random_forest.joblib",
+        "decision_threshold": 0.5,
+        "positive_class": ">50K",
+        "trained_on": "train",
+        "scored_on": "validation",
+        "refit_on_validation": false
+      },
+      "xgboost": {
+        "name": "xgboost",
+        "display_name": "XGBoost",
+        "params": {
+          "n_estimators": 200,
+          "subsample": 0.8,
+          "colsample_bytree": 0.8,
+          "min_child_weight": 1,
+          "reg_lambda": 1.0,
+          "objective": "binary:logistic",
+          "eval_metric": "logloss",
+          "tree_method": "hist",
+          "n_jobs": -1,
+          "random_state": 42,
+          "verbosity": 0,
+          "max_depth": 6,
+          "learning_rate": 0.05
+        },
+        "metrics": {
+          "roc_auc": 0.931336083875183,
+          "f1": 0.7224143351147438,
+          "precision": 0.8046218487394958,
+          "recall": 0.6554478037649744,
+          "balanced_accuracy": 0.802692500482882,
+          "threshold": 0.5,
+          "partition": "validation"
+        },
+        "train_seconds": 0.8416059159208089,
+        "search_seconds": 2.983508041012101,
+        "n_candidates": 4,
+        "selected_candidate": 3,
+        "n_transformed_features": 108,
+        "warnings": [],
+        "model_path": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/models/xgboost.joblib",
+        "decision_threshold": 0.5,
+        "positive_class": ">50K",
+        "trained_on": "train",
+        "scored_on": "validation",
+        "refit_on_validation": false
+      }
+    },
+    "ranking": [
+      "xgboost",
+      "random_forest",
+      "logistic_regression"
+    ],
+    "best_model": "xgboost",
+    "selection_metric": "roc_auc",
+    "tie_breaker_metric": "f1",
+    "decision_threshold": 0.5,
+    "search_rows": [
+      {
+        "model": "logistic_regression",
+        "display_name": "Logistic Regression",
+        "candidate": 1,
+        "params": {
+          "solver": "lbfgs",
+          "max_iter": 2000,
+          "random_state": 42,
+          "C": 0.1,
+          "class_weight": null
+        },
+        "train_seconds": 0.1849119580583647,
+        "roc_auc": 0.9081203901665484,
+        "f1": 0.6562400255346313,
+        "precision": 0.744927536231884,
+        "recall": 0.5864232743867656,
+        "balanced_accuracy": 0.7616308010189705,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "logistic_regression",
+        "display_name": "Logistic Regression",
+        "candidate": 2,
+        "params": {
+          "solver": "lbfgs",
+          "max_iter": 2000,
+          "random_state": 42,
+          "C": 1.0,
+          "class_weight": null
+        },
+        "train_seconds": 0.18107458297163248,
+        "roc_auc": 0.9078967342032611,
+        "f1": 0.6584048299968224,
+        "precision": 0.7431850789096126,
+        "recall": 0.5909868796349116,
+        "balanced_accuracy": 0.763374293935525,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "logistic_regression",
+        "display_name": "Logistic Regression",
+        "candidate": 3,
+        "params": {
+          "solver": "lbfgs",
+          "max_iter": 2000,
+          "random_state": 42,
+          "C": 10.0,
+          "class_weight": null
+        },
+        "train_seconds": 0.19776091701351106,
+        "roc_auc": 0.9077373601369737,
+        "f1": 0.6581956797966964,
+        "precision": 0.7426523297491039,
+        "recall": 0.5909868796349116,
+        "balanced_accuracy": 0.7632845756509387,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "logistic_regression",
+        "display_name": "Logistic Regression",
+        "candidate": 4,
+        "params": {
+          "solver": "lbfgs",
+          "max_iter": 2000,
+          "random_state": 42,
+          "C": 0.1,
+          "class_weight": "balanced"
+        },
+        "train_seconds": 0.18907587509602308,
+        "roc_auc": 0.9076546534924264,
+        "f1": 0.6759388038942976,
+        "precision": 0.5693088637251074,
+        "recall": 0.8317170564746149,
+        "balanced_accuracy": 0.8168992603385097,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "logistic_regression",
+        "display_name": "Logistic Regression",
+        "candidate": 5,
+        "params": {
+          "solver": "lbfgs",
+          "max_iter": 2000,
+          "random_state": 42,
+          "C": 1.0,
+          "class_weight": "balanced"
+        },
+        "train_seconds": 0.20178333402145654,
+        "roc_auc": 0.9074735791679159,
+        "f1": 0.6759388038942976,
+        "precision": 0.5693088637251074,
+        "recall": 0.8317170564746149,
+        "balanced_accuracy": 0.8168992603385097,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "logistic_regression",
+        "display_name": "Logistic Regression",
+        "candidate": 6,
+        "params": {
+          "solver": "lbfgs",
+          "max_iter": 2000,
+          "random_state": 42,
+          "C": 10.0,
+          "class_weight": "balanced"
+        },
+        "train_seconds": 0.20495483302511275,
+        "roc_auc": 0.9072317031764983,
+        "f1": 0.6762456546929316,
+        "precision": 0.5694769711163153,
+        "recall": 0.8322875071306332,
+        "balanced_accuracy": 0.8171844856665188,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "random_forest",
+        "display_name": "Random Forest",
+        "candidate": 1,
+        "params": {
+          "n_estimators": 200,
+          "max_features": "sqrt",
+          "bootstrap": true,
+          "n_jobs": -1,
+          "random_state": 42,
+          "max_depth": 12,
+          "min_samples_leaf": 1
+        },
+        "train_seconds": 0.8908444159897044,
+        "roc_auc": 0.9183487352280866,
+        "f1": 0.6653212243525058,
+        "precision": 0.8106557377049181,
+        "recall": 0.5641756988020536,
+        "balanced_accuracy": 0.7613629256615687,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "random_forest",
+        "display_name": "Random Forest",
+        "candidate": 2,
+        "params": {
+          "n_estimators": 200,
+          "max_features": "sqrt",
+          "bootstrap": true,
+          "n_jobs": -1,
+          "random_state": 42,
+          "max_depth": 12,
+          "min_samples_leaf": 5
+        },
+        "train_seconds": 0.7096221250249073,
+        "roc_auc": 0.9174269348723046,
+        "f1": 0.6612521150592217,
+        "precision": 0.8128119800332779,
+        "recall": 0.5573302909298345,
+        "balanced_accuracy": 0.7584785314329776,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "random_forest",
+        "display_name": "Random Forest",
+        "candidate": 3,
+        "params": {
+          "n_estimators": 200,
+          "max_features": "sqrt",
+          "bootstrap": true,
+          "n_jobs": -1,
+          "random_state": 42,
+          "max_depth": 24,
+          "min_samples_leaf": 1
+        },
+        "train_seconds": 1.0920139170484617,
+        "roc_auc": 0.9175189562503346,
+        "f1": 0.6835686777920411,
+        "precision": 0.7813646368305209,
+        "recall": 0.607529948659441,
+        "balanced_accuracy": 0.7770289255229736,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "random_forest",
+        "display_name": "Random Forest",
+        "candidate": 4,
+        "params": {
+          "n_estimators": 200,
+          "max_features": "sqrt",
+          "bootstrap": true,
+          "n_jobs": -1,
+          "random_state": 42,
+          "max_depth": 24,
+          "min_samples_leaf": 5
+        },
+        "train_seconds": 1.0022774579701945,
+        "roc_auc": 0.9196693290085673,
+        "f1": 0.6836268754076973,
+        "precision": 0.7981721249047982,
+        "recall": 0.5978322875071307,
+        "balanced_accuracy": 0.7751407983381697,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "xgboost",
+        "display_name": "XGBoost",
+        "candidate": 1,
+        "params": {
+          "n_estimators": 200,
+          "subsample": 0.8,
+          "colsample_bytree": 0.8,
+          "min_child_weight": 1,
+          "reg_lambda": 1.0,
+          "objective": "binary:logistic",
+          "eval_metric": "logloss",
+          "tree_method": "hist",
+          "n_jobs": -1,
+          "random_state": 42,
+          "verbosity": 0,
+          "max_depth": 3,
+          "learning_rate": 0.05
+        },
+        "train_seconds": 0.6677752090618014,
+        "roc_auc": 0.9247422761666986,
+        "f1": 0.6958495460440985,
+        "precision": 0.8061607813673929,
+        "recall": 0.612093553907587,
+        "balanced_accuracy": 0.7828994595305027,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "xgboost",
+        "display_name": "XGBoost",
+        "candidate": 2,
+        "params": {
+          "n_estimators": 200,
+          "subsample": 0.8,
+          "colsample_bytree": 0.8,
+          "min_child_weight": 1,
+          "reg_lambda": 1.0,
+          "objective": "binary:logistic",
+          "eval_metric": "logloss",
+          "tree_method": "hist",
+          "n_jobs": -1,
+          "random_state": 42,
+          "verbosity": 0,
+          "max_depth": 3,
+          "learning_rate": 0.1
+        },
+        "train_seconds": 0.492310915957205,
+        "roc_auc": 0.9282870440553114,
+        "f1": 0.7158694963573012,
+        "precision": 0.8048433048433048,
+        "recall": 0.6446092413006275,
+        "balanced_accuracy": 0.7977218106736406,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "xgboost",
+        "display_name": "XGBoost",
+        "candidate": 3,
+        "params": {
+          "n_estimators": 200,
+          "subsample": 0.8,
+          "colsample_bytree": 0.8,
+          "min_child_weight": 1,
+          "reg_lambda": 1.0,
+          "objective": "binary:logistic",
+          "eval_metric": "logloss",
+          "tree_method": "hist",
+          "n_jobs": -1,
+          "random_state": 42,
+          "verbosity": 0,
+          "max_depth": 6,
+          "learning_rate": 0.05
+        },
+        "train_seconds": 0.8416059159208089,
+        "roc_auc": 0.931336083875183,
+        "f1": 0.7224143351147438,
+        "precision": 0.8046218487394958,
+        "recall": 0.6554478037649744,
+        "balanced_accuracy": 0.802692500482882,
+        "warnings": [],
+        "error": ""
+      },
+      {
+        "model": "xgboost",
+        "display_name": "XGBoost",
+        "candidate": 4,
+        "params": {
+          "n_estimators": 200,
+          "subsample": 0.8,
+          "colsample_bytree": 0.8,
+          "min_child_weight": 1,
+          "reg_lambda": 1.0,
+          "objective": "binary:logistic",
+          "eval_metric": "logloss",
+          "tree_method": "hist",
+          "n_jobs": -1,
+          "random_state": 42,
+          "verbosity": 0,
+          "max_depth": 6,
+          "learning_rate": 0.1
+        },
+        "train_seconds": 0.981261832988821,
+        "roc_auc": 0.930136581629974,
+        "f1": 0.7223955084217093,
+        "precision": 0.7969717825189263,
+        "recall": 0.6605818596691386,
+        "balanced_accuracy": 0.8038240358815817,
+        "warnings": [],
+        "error": ""
+      }
+    ]
+  },
+  "environment": {
+    "python_version": "3.12.14",
+    "python": "3.12.14 (main, Sep  1 2026, 14:09:38) [Clang 22.1.3 ]",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "system": "Darwin",
+    "machine": "arm64",
+    "packages": {
+      "pandas": "3.1.1",
+      "numpy": "2.5.5",
+      "scikit-learn": "1.9.1",
+      "xgboost": "3.4.1",
+      "matplotlib": "3.11.2",
+      "seaborn": "0.13.2",
+      "scipy": "1.18.1",
+      "joblib": "1.6.0",
+      "fpdf2": "2.9.0"
+    },
+    "timestamp": "2026-11-17T11:35:04+00:00"
+  },
+  "test_set_status": {
+    "phase": 1,
+    "test_predictions_computed": false,
+    "test_metrics_computed": false,
+    "test_used_for_model_selection": false,
+    "test_used_for_preprocessing_fit": false,
+    "validation_metrics_computed": true,
+    "identity_audit_includes_test_rows": true,
+    "identity_audit_purpose": "Confirm that source-row identifiers do not overlap and report identical feature-label contents that fall in more than one partition. No predictive metric was calculated on the test partition."
+  },
+  "figure_paths": {
+    "roc_curves": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/results/figures/roc_curves.png",
+    "confusion_matrices": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/results/figures/confusion_matrices.png",
+    "model_comparison": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/results/figures/model_comparison.png"
+  }
+}

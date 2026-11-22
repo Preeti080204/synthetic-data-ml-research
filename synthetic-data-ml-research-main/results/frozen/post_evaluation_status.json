@@ -1,0 +1,23 @@
+{
+  "record": "post_evaluation_status",
+  "checked_on": "2026-11-23",
+  "does_not_replace": "results/frozen/validation_freeze.json",
+  "validation_freeze_sha256": "e06887586eb1e02a416e3db63bb941f9ec38b30e14dad0db444847fd177d8180",
+  "validation_freeze_test_metrics_computed": false,
+  "validation_freeze_final_test_authorized": false,
+  "freeze_file_was_not_modified": true,
+  "held_out_evaluation": {
+    "status": "completed_and_verified",
+    "evaluated_on": "2026-11-17T14:35:55+00:00",
+    "runs": 390,
+    "partition": "test",
+    "test_run_metrics_sha256": "ba49b723b304df8440bea285e8f7d87bd4a124f41f70e7a3afe5960feba988c1",
+    "paired_differences_sha256": "322c7f4a652ba0d7597e6ab22338fb3f0feaf5955193dba22247aa1d03d895b1",
+    "authorization_file_sha256": "e921893271eacfad66114ce201474cd6ed27d3e1a27c2c0a5d1004c3569a15c6",
+    "authorization_reviewer_as_stored": "User request, 2026-11-17",
+    "test_based_selection": false,
+    "integrity_audit": "passed",
+    "scorer_rerun_for_this_record": false
+  },
+  "note": "The original freeze manifest still says the test metrics were uncomputed. That sentence describes the freeze at the time it was written. This file records the later completed evaluation."
+}

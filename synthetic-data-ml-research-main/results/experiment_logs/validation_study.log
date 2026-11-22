@@ -1,0 +1,531 @@
+2026-11-17 13:07:49,895 INFO Phase 1 validation metrics matched the saved pipelines.
+2026-11-17 13:07:49,903 INFO generator gaussian_copula seed 42 rows 34189
+2026-11-17 13:07:56,104 INFO generator gaussian_copula seed 42 status completed seconds 6.2
+2026-11-17 13:07:56,107 INFO generator ctgan seed 42 rows 34189
+2026-11-17 13:30:03,220 INFO Phase 1 validation metrics matched the saved pipelines.
+2026-11-17 13:30:03,227 INFO generator gaussian_copula seed 42 rows 34189
+2026-11-17 13:30:03,248 INFO generator gaussian_copula seed 42 status completed seconds 6.2
+2026-11-17 13:30:03,250 INFO generator ctgan seed 42 rows 34189
+2026-11-17 13:30:04,163 INFO generator ctgan seed 42 status failed seconds 0.9
+2026-11-17 13:30:04,163 ERROR Generator failed: ValueError: A file named 'metadata.json' already exists in this folder. Please specify a different filename.
+2026-11-17 13:30:04,165 INFO generator gaussian_copula seed 123 rows 34189
+2026-11-17 13:30:09,484 INFO generator gaussian_copula seed 123 status completed seconds 5.3
+2026-11-17 13:30:09,487 INFO generator ctgan seed 123 rows 34189
+2026-11-17 13:30:30,334 INFO Phase 1 validation metrics matched the saved pipelines.
+2026-11-17 13:30:30,341 INFO generator gaussian_copula seed 42 rows 34189
+2026-11-17 13:30:30,362 INFO generator gaussian_copula seed 42 status completed seconds 6.2
+2026-11-17 13:30:30,364 INFO generator ctgan seed 42 rows 34189
+2026-11-17 13:33:02,395 INFO Phase 1 validation metrics matched the saved pipelines.
+2026-11-17 13:33:02,402 INFO generator gaussian_copula seed 42 rows 34189
+2026-11-17 13:33:02,423 INFO generator gaussian_copula seed 42 status completed seconds 6.2
+2026-11-17 13:33:02,426 INFO generator ctgan seed 42 rows 34189
+2026-11-17 13:43:56,080 INFO Phase 1 validation metrics matched the saved pipelines.
+2026-11-17 13:43:56,087 INFO generator gaussian_copula seed 42 rows 34189
+2026-11-17 13:43:56,108 INFO generator gaussian_copula seed 42 status completed seconds 6.2
+2026-11-17 13:43:56,110 INFO generator ctgan seed 42 rows 34189
+2026-11-17 13:54:24,264 INFO Phase 1 validation metrics matched the saved pipelines.
+2026-11-17 13:54:24,271 INFO generator gaussian_copula seed 42 rows 34189
+2026-11-17 13:54:24,291 INFO generator gaussian_copula seed 42 status completed seconds 6.2
+2026-11-17 13:54:24,294 INFO generator ctgan seed 42 rows 34189
+2026-11-17 13:56:41,404 INFO CTGAN subprocess exit 0
+2026-11-17 13:56:41,405 INFO generator ctgan seed 42 status completed seconds 135.7
+2026-11-17 13:56:41,409 INFO generator gaussian_copula seed 123 rows 34189
+2026-11-17 13:56:41,429 INFO generator gaussian_copula seed 123 status completed seconds 5.3
+2026-11-17 13:56:41,432 INFO generator ctgan seed 123 rows 34189
+2026-11-17 13:59:02,942 INFO CTGAN subprocess exit 0
+2026-11-17 13:59:02,942 INFO generator ctgan seed 123 status completed seconds 139.8
+2026-11-17 13:59:02,946 INFO generator gaussian_copula seed 2024 rows 34189
+2026-11-17 13:59:09,124 INFO generator gaussian_copula seed 2024 status completed seconds 6.2
+2026-11-17 13:59:09,126 INFO generator ctgan seed 2024 rows 34189
+2026-11-17 14:01:31,699 INFO CTGAN subprocess exit 0
+2026-11-17 14:01:31,699 INFO generator ctgan seed 2024 status completed seconds 140.8
+2026-11-17 14:01:31,704 INFO generator gaussian_copula seed 3407 rows 34189
+2026-11-17 14:01:37,029 INFO generator gaussian_copula seed 3407 status completed seconds 5.3
+2026-11-17 14:01:37,032 INFO generator ctgan seed 3407 rows 34189
+2026-11-17 14:04:00,515 INFO CTGAN subprocess exit 0
+2026-11-17 14:04:00,515 INFO generator ctgan seed 3407 status completed seconds 142.0
+2026-11-17 14:04:00,520 INFO generator gaussian_copula seed 777 rows 34189
+2026-11-17 14:04:05,846 INFO generator gaussian_copula seed 777 status completed seconds 5.3
+2026-11-17 14:04:05,849 INFO generator ctgan seed 777 rows 34189
+2026-11-17 14:06:28,468 INFO CTGAN subprocess exit 0
+2026-11-17 14:06:28,469 INFO generator ctgan seed 777 status completed seconds 141.1
+2026-11-17 14:06:28,474 INFO fit main__real__share-0.00__logistic_regression__seed-42
+2026-11-17 14:06:28,637 INFO fit main__real__share-0.00__random_forest__seed-42
+2026-11-17 14:06:29,091 INFO fit main__real__share-0.00__xgboost__seed-42
+2026-11-17 14:06:29,825 INFO fit main__gaussian_copula__share-0.10__logistic_regression__seed-42
+2026-11-17 14:06:29,985 INFO fit main__gaussian_copula__share-0.10__random_forest__seed-42
+2026-11-17 14:06:30,542 INFO fit main__gaussian_copula__share-0.10__xgboost__seed-42
+2026-11-17 14:06:31,233 INFO fit main__gaussian_copula__share-0.25__logistic_regression__seed-42
+2026-11-17 14:06:31,390 INFO fit main__gaussian_copula__share-0.25__random_forest__seed-42
+2026-11-17 14:06:31,961 INFO fit main__gaussian_copula__share-0.25__xgboost__seed-42
+2026-11-17 14:06:32,653 INFO fit main__gaussian_copula__share-0.50__logistic_regression__seed-42
+2026-11-17 14:06:32,808 INFO fit main__gaussian_copula__share-0.50__random_forest__seed-42
+2026-11-17 14:06:33,427 INFO fit main__gaussian_copula__share-0.50__xgboost__seed-42
+2026-11-17 14:06:34,128 INFO fit main__gaussian_copula__share-0.75__logistic_regression__seed-42
+2026-11-17 14:06:34,253 INFO fit main__gaussian_copula__share-0.75__random_forest__seed-42
+2026-11-17 14:06:34,893 INFO fit main__gaussian_copula__share-0.75__xgboost__seed-42
+2026-11-17 14:06:35,584 INFO fit main__gaussian_copula__share-1.00__logistic_regression__seed-42
+2026-11-17 14:06:35,704 INFO fit main__gaussian_copula__share-1.00__random_forest__seed-42
+2026-11-17 14:06:36,401 INFO fit main__gaussian_copula__share-1.00__xgboost__seed-42
+2026-11-17 14:06:37,120 INFO fit main__ctgan__share-0.10__logistic_regression__seed-42
+2026-11-17 14:06:37,278 INFO fit main__ctgan__share-0.10__random_forest__seed-42
+2026-11-17 14:06:37,833 INFO fit main__ctgan__share-0.10__xgboost__seed-42
+2026-11-17 14:06:38,514 INFO fit main__ctgan__share-0.25__logistic_regression__seed-42
+2026-11-17 14:06:38,658 INFO fit main__ctgan__share-0.25__random_forest__seed-42
+2026-11-17 14:06:39,238 INFO fit main__ctgan__share-0.25__xgboost__seed-42
+2026-11-17 14:06:39,952 INFO fit main__ctgan__share-0.50__logistic_regression__seed-42
+2026-11-17 14:06:40,094 INFO fit main__ctgan__share-0.50__random_forest__seed-42
+2026-11-17 14:06:40,711 INFO fit main__ctgan__share-0.50__xgboost__seed-42
+2026-11-17 14:06:41,402 INFO fit main__ctgan__share-0.75__logistic_regression__seed-42
+2026-11-17 14:06:41,545 INFO fit main__ctgan__share-0.75__random_forest__seed-42
+2026-11-17 14:06:42,134 INFO fit main__ctgan__share-0.75__xgboost__seed-42
+2026-11-17 14:06:42,812 INFO fit main__ctgan__share-1.00__logistic_regression__seed-42
+2026-11-17 14:06:42,946 INFO fit main__ctgan__share-1.00__random_forest__seed-42
+2026-11-17 14:06:43,537 INFO fit main__ctgan__share-1.00__xgboost__seed-42
+2026-11-17 14:06:44,206 INFO fit main__real__share-0.00__logistic_regression__seed-123
+2026-11-17 14:06:44,361 INFO fit main__real__share-0.00__random_forest__seed-123
+2026-11-17 14:06:44,930 INFO fit main__real__share-0.00__xgboost__seed-123
+2026-11-17 14:06:45,635 INFO fit main__gaussian_copula__share-0.10__logistic_regression__seed-123
+2026-11-17 14:06:45,796 INFO fit main__gaussian_copula__share-0.10__random_forest__seed-123
+2026-11-17 14:06:46,346 INFO fit main__gaussian_copula__share-0.10__xgboost__seed-123
+2026-11-17 14:06:47,035 INFO fit main__gaussian_copula__share-0.25__logistic_regression__seed-123
+2026-11-17 14:06:47,184 INFO fit main__gaussian_copula__share-0.25__random_forest__seed-123
+2026-11-17 14:06:47,760 INFO fit main__gaussian_copula__share-0.25__xgboost__seed-123
+2026-11-17 14:06:48,457 INFO fit main__gaussian_copula__share-0.50__logistic_regression__seed-123
+2026-11-17 14:06:48,604 INFO fit main__gaussian_copula__share-0.50__random_forest__seed-123
+2026-11-17 14:06:49,234 INFO fit main__gaussian_copula__share-0.50__xgboost__seed-123
+2026-11-17 14:06:49,935 INFO fit main__gaussian_copula__share-0.75__logistic_regression__seed-123
+2026-11-17 14:06:50,088 INFO fit main__gaussian_copula__share-0.75__random_forest__seed-123
+2026-11-17 14:06:50,737 INFO fit main__gaussian_copula__share-0.75__xgboost__seed-123
+2026-11-17 14:06:51,448 INFO fit main__gaussian_copula__share-1.00__logistic_regression__seed-123
+2026-11-17 14:06:51,575 INFO fit main__gaussian_copula__share-1.00__random_forest__seed-123
+2026-11-17 14:06:52,270 INFO fit main__gaussian_copula__share-1.00__xgboost__seed-123
+2026-11-17 14:06:52,988 INFO fit main__ctgan__share-0.10__logistic_regression__seed-123
+2026-11-17 14:06:53,132 INFO fit main__ctgan__share-0.10__random_forest__seed-123
+2026-11-17 14:06:53,705 INFO fit main__ctgan__share-0.10__xgboost__seed-123
+2026-11-17 14:06:54,384 INFO fit main__ctgan__share-0.25__logistic_regression__seed-123
+2026-11-17 14:06:54,514 INFO fit main__ctgan__share-0.25__random_forest__seed-123
+2026-11-17 14:06:55,100 INFO fit main__ctgan__share-0.25__xgboost__seed-123
+2026-11-17 14:06:55,783 INFO fit main__ctgan__share-0.50__logistic_regression__seed-123
+2026-11-17 14:06:55,939 INFO fit main__ctgan__share-0.50__random_forest__seed-123
+2026-11-17 14:06:56,534 INFO fit main__ctgan__share-0.50__xgboost__seed-123
+2026-11-17 14:06:57,223 INFO fit main__ctgan__share-0.75__logistic_regression__seed-123
+2026-11-17 14:06:57,360 INFO fit main__ctgan__share-0.75__random_forest__seed-123
+2026-11-17 14:06:57,971 INFO fit main__ctgan__share-0.75__xgboost__seed-123
+2026-11-17 14:06:58,643 INFO fit main__ctgan__share-1.00__logistic_regression__seed-123
+2026-11-17 14:06:58,764 INFO fit main__ctgan__share-1.00__random_forest__seed-123
+2026-11-17 14:06:59,382 INFO fit main__ctgan__share-1.00__xgboost__seed-123
+2026-11-17 14:07:00,042 INFO fit main__real__share-0.00__logistic_regression__seed-2024
+2026-11-17 14:07:00,197 INFO fit main__real__share-0.00__random_forest__seed-2024
+2026-11-17 14:07:00,775 INFO fit main__real__share-0.00__xgboost__seed-2024
+2026-11-17 14:07:01,480 INFO fit main__gaussian_copula__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:07:01,626 INFO fit main__gaussian_copula__share-0.10__random_forest__seed-2024
+2026-11-17 14:07:02,221 INFO fit main__gaussian_copula__share-0.10__xgboost__seed-2024
+2026-11-17 14:07:02,916 INFO fit main__gaussian_copula__share-0.25__logistic_regression__seed-2024
+2026-11-17 14:07:03,071 INFO fit main__gaussian_copula__share-0.25__random_forest__seed-2024
+2026-11-17 14:07:03,670 INFO fit main__gaussian_copula__share-0.25__xgboost__seed-2024
+2026-11-17 14:07:04,365 INFO fit main__gaussian_copula__share-0.50__logistic_regression__seed-2024
+2026-11-17 14:07:04,507 INFO fit main__gaussian_copula__share-0.50__random_forest__seed-2024
+2026-11-17 14:07:05,169 INFO fit main__gaussian_copula__share-0.50__xgboost__seed-2024
+2026-11-17 14:07:05,877 INFO fit main__gaussian_copula__share-0.75__logistic_regression__seed-2024
+2026-11-17 14:07:06,026 INFO fit main__gaussian_copula__share-0.75__random_forest__seed-2024
+2026-11-17 14:07:06,661 INFO fit main__gaussian_copula__share-0.75__xgboost__seed-2024
+2026-11-17 14:07:07,357 INFO fit main__gaussian_copula__share-1.00__logistic_regression__seed-2024
+2026-11-17 14:07:07,478 INFO fit main__gaussian_copula__share-1.00__random_forest__seed-2024
+2026-11-17 14:07:08,176 INFO fit main__gaussian_copula__share-1.00__xgboost__seed-2024
+2026-11-17 14:07:09,025 INFO fit main__ctgan__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:07:09,177 INFO fit main__ctgan__share-0.10__random_forest__seed-2024
+2026-11-17 14:07:09,783 INFO fit main__ctgan__share-0.10__xgboost__seed-2024
+2026-11-17 14:07:10,466 INFO fit main__ctgan__share-0.25__logistic_regression__seed-2024
+2026-11-17 14:07:10,611 INFO fit main__ctgan__share-0.25__random_forest__seed-2024
+2026-11-17 14:07:11,271 INFO fit main__ctgan__share-0.25__xgboost__seed-2024
+2026-11-17 14:07:11,964 INFO fit main__ctgan__share-0.50__logistic_regression__seed-2024
+2026-11-17 14:07:12,104 INFO fit main__ctgan__share-0.50__random_forest__seed-2024
+2026-11-17 14:07:12,735 INFO fit main__ctgan__share-0.50__xgboost__seed-2024
+2026-11-17 14:07:13,427 INFO fit main__ctgan__share-0.75__logistic_regression__seed-2024
+2026-11-17 14:07:13,566 INFO fit main__ctgan__share-0.75__random_forest__seed-2024
+2026-11-17 14:07:14,194 INFO fit main__ctgan__share-0.75__xgboost__seed-2024
+2026-11-17 14:07:14,895 INFO fit main__ctgan__share-1.00__logistic_regression__seed-2024
+2026-11-17 14:07:15,029 INFO fit main__ctgan__share-1.00__random_forest__seed-2024
+2026-11-17 14:07:15,687 INFO fit main__ctgan__share-1.00__xgboost__seed-2024
+2026-11-17 14:07:16,391 INFO fit main__real__share-0.00__logistic_regression__seed-3407
+2026-11-17 14:07:16,545 INFO fit main__real__share-0.00__random_forest__seed-3407
+2026-11-17 14:07:17,155 INFO fit main__real__share-0.00__xgboost__seed-3407
+2026-11-17 14:07:17,896 INFO fit main__gaussian_copula__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:07:18,037 INFO fit main__gaussian_copula__share-0.10__random_forest__seed-3407
+2026-11-17 14:07:18,624 INFO fit main__gaussian_copula__share-0.10__xgboost__seed-3407
+2026-11-17 14:07:19,319 INFO fit main__gaussian_copula__share-0.25__logistic_regression__seed-3407
+2026-11-17 14:07:19,472 INFO fit main__gaussian_copula__share-0.25__random_forest__seed-3407
+2026-11-17 14:07:20,100 INFO fit main__gaussian_copula__share-0.25__xgboost__seed-3407
+2026-11-17 14:07:20,802 INFO fit main__gaussian_copula__share-0.50__logistic_regression__seed-3407
+2026-11-17 14:07:20,947 INFO fit main__gaussian_copula__share-0.50__random_forest__seed-3407
+2026-11-17 14:07:21,597 INFO fit main__gaussian_copula__share-0.50__xgboost__seed-3407
+2026-11-17 14:07:22,338 INFO fit main__gaussian_copula__share-0.75__logistic_regression__seed-3407
+2026-11-17 14:07:22,468 INFO fit main__gaussian_copula__share-0.75__random_forest__seed-3407
+2026-11-17 14:07:23,172 INFO fit main__gaussian_copula__share-0.75__xgboost__seed-3407
+2026-11-17 14:07:23,860 INFO fit main__gaussian_copula__share-1.00__logistic_regression__seed-3407
+2026-11-17 14:07:23,996 INFO fit main__gaussian_copula__share-1.00__random_forest__seed-3407
+2026-11-17 14:07:24,879 INFO fit main__gaussian_copula__share-1.00__xgboost__seed-3407
+2026-11-17 14:07:25,680 INFO fit main__ctgan__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:07:25,842 INFO fit main__ctgan__share-0.10__random_forest__seed-3407
+2026-11-17 14:07:26,494 INFO fit main__ctgan__share-0.10__xgboost__seed-3407
+2026-11-17 14:07:27,179 INFO fit main__ctgan__share-0.25__logistic_regression__seed-3407
+2026-11-17 14:07:27,332 INFO fit main__ctgan__share-0.25__random_forest__seed-3407
+2026-11-17 14:07:27,930 INFO fit main__ctgan__share-0.25__xgboost__seed-3407
+2026-11-17 14:07:28,615 INFO fit main__ctgan__share-0.50__logistic_regression__seed-3407
+2026-11-17 14:07:28,767 INFO fit main__ctgan__share-0.50__random_forest__seed-3407
+2026-11-17 14:07:29,396 INFO fit main__ctgan__share-0.50__xgboost__seed-3407
+2026-11-17 14:07:30,083 INFO fit main__ctgan__share-0.75__logistic_regression__seed-3407
+2026-11-17 14:07:30,227 INFO fit main__ctgan__share-0.75__random_forest__seed-3407
+2026-11-17 14:07:30,842 INFO fit main__ctgan__share-0.75__xgboost__seed-3407
+2026-11-17 14:07:31,554 INFO fit main__ctgan__share-1.00__logistic_regression__seed-3407
+2026-11-17 14:07:31,692 INFO fit main__ctgan__share-1.00__random_forest__seed-3407
+2026-11-17 14:07:32,308 INFO fit main__ctgan__share-1.00__xgboost__seed-3407
+2026-11-17 14:07:32,967 INFO fit main__real__share-0.00__logistic_regression__seed-777
+2026-11-17 14:07:33,124 INFO fit main__real__share-0.00__random_forest__seed-777
+2026-11-17 14:07:33,724 INFO fit main__real__share-0.00__xgboost__seed-777
+2026-11-17 14:07:34,435 INFO fit main__gaussian_copula__share-0.10__logistic_regression__seed-777
+2026-11-17 14:07:34,590 INFO fit main__gaussian_copula__share-0.10__random_forest__seed-777
+2026-11-17 14:07:35,188 INFO fit main__gaussian_copula__share-0.10__xgboost__seed-777
+2026-11-17 14:07:35,895 INFO fit main__gaussian_copula__share-0.25__logistic_regression__seed-777
+2026-11-17 14:07:36,046 INFO fit main__gaussian_copula__share-0.25__random_forest__seed-777
+2026-11-17 14:07:36,689 INFO fit main__gaussian_copula__share-0.25__xgboost__seed-777
+2026-11-17 14:07:37,396 INFO fit main__gaussian_copula__share-0.50__logistic_regression__seed-777
+2026-11-17 14:07:37,542 INFO fit main__gaussian_copula__share-0.50__random_forest__seed-777
+2026-11-17 14:07:38,205 INFO fit main__gaussian_copula__share-0.50__xgboost__seed-777
+2026-11-17 14:07:38,913 INFO fit main__gaussian_copula__share-0.75__logistic_regression__seed-777
+2026-11-17 14:07:39,064 INFO fit main__gaussian_copula__share-0.75__random_forest__seed-777
+2026-11-17 14:07:39,730 INFO fit main__gaussian_copula__share-0.75__xgboost__seed-777
+2026-11-17 14:07:40,416 INFO fit main__gaussian_copula__share-1.00__logistic_regression__seed-777
+2026-11-17 14:07:40,553 INFO fit main__gaussian_copula__share-1.00__random_forest__seed-777
+2026-11-17 14:07:41,273 INFO fit main__gaussian_copula__share-1.00__xgboost__seed-777
+2026-11-17 14:07:41,998 INFO fit main__ctgan__share-0.10__logistic_regression__seed-777
+2026-11-17 14:07:42,143 INFO fit main__ctgan__share-0.10__random_forest__seed-777
+2026-11-17 14:07:42,732 INFO fit main__ctgan__share-0.10__xgboost__seed-777
+2026-11-17 14:07:43,440 INFO fit main__ctgan__share-0.25__logistic_regression__seed-777
+2026-11-17 14:07:43,583 INFO fit main__ctgan__share-0.25__random_forest__seed-777
+2026-11-17 14:07:44,245 INFO fit main__ctgan__share-0.25__xgboost__seed-777
+2026-11-17 14:07:44,940 INFO fit main__ctgan__share-0.50__logistic_regression__seed-777
+2026-11-17 14:07:45,085 INFO fit main__ctgan__share-0.50__random_forest__seed-777
+2026-11-17 14:07:45,713 INFO fit main__ctgan__share-0.50__xgboost__seed-777
+2026-11-17 14:07:46,406 INFO fit main__ctgan__share-0.75__logistic_regression__seed-777
+2026-11-17 14:07:46,545 INFO fit main__ctgan__share-0.75__random_forest__seed-777
+2026-11-17 14:07:47,179 INFO fit main__ctgan__share-0.75__xgboost__seed-777
+2026-11-17 14:07:47,851 INFO fit main__ctgan__share-1.00__logistic_regression__seed-777
+2026-11-17 14:07:47,998 INFO fit main__ctgan__share-1.00__random_forest__seed-777
+2026-11-17 14:07:48,621 INFO fit main__ctgan__share-1.00__xgboost__seed-777
+2026-11-17 14:07:49,302 INFO quality gaussian_copula seed 42
+2026-11-17 14:07:49,890 INFO quality ctgan seed 42
+2026-11-17 14:07:50,475 INFO quality gaussian_copula seed 123
+2026-11-17 14:07:51,058 INFO quality ctgan seed 123
+2026-11-17 14:07:51,631 INFO quality gaussian_copula seed 2024
+2026-11-17 14:07:52,214 INFO quality ctgan seed 2024
+2026-11-17 14:07:52,799 INFO quality gaussian_copula seed 3407
+2026-11-17 14:07:53,383 INFO quality ctgan seed 3407
+2026-11-17 14:07:53,965 INFO quality gaussian_copula seed 777
+2026-11-17 14:07:54,552 INFO quality ctgan seed 777
+2026-11-17 14:07:55,122 INFO Selected augmentation ratios: {"ctgan": {"mean_roc_auc_by_share": {"0.1": 0.9187881245132156, "0.25": 0.9172942084501555, "0.5": 0.9135032893462959, "0.75": 0.9070197605758649, "1.0": 0.8854132945540165}, "best_share_including_synthetic_only": 0.1, "augmentation_share": 0.1}, "gaussian_copula": {"mean_roc_auc_by_share": {"0.1": 0.9118260641050876, "0.25": 0.9093778723626978, "0.5": 0.9045380596768702, "0.75": 0.8970678106114741, "1.0": 0.8535712602871934}, "best_share_including_synthetic_only": 0.1, "augmentation_share": 0.1}}
+2026-11-17 14:07:55,131 INFO fit scarcity_real__real__budget-0.25__share-0.00__logistic_regression__seed-42
+2026-11-17 14:07:55,176 INFO fit scarcity_real__real__budget-0.25__share-0.00__random_forest__seed-42
+2026-11-17 14:07:55,405 INFO fit scarcity_real__real__budget-0.25__share-0.00__xgboost__seed-42
+2026-11-17 14:07:55,953 INFO generator gaussian_copula seed 42 rows 950
+2026-11-17 14:07:57,140 INFO generator gaussian_copula seed 42 status completed seconds 1.2
+2026-11-17 14:07:57,144 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-42
+2026-11-17 14:07:57,193 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-42
+2026-11-17 14:07:57,435 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-42
+2026-11-17 14:07:58,020 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-42
+2026-11-17 14:07:58,066 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-42
+2026-11-17 14:07:58,300 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-42
+2026-11-17 14:07:58,843 INFO generator ctgan seed 42 rows 950
+2026-11-17 14:08:40,397 INFO CTGAN subprocess exit 0
+2026-11-17 14:08:40,397 INFO generator ctgan seed 42 status completed seconds 40.4
+2026-11-17 14:08:40,406 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__logistic_regression__seed-42
+2026-11-17 14:08:40,459 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__random_forest__seed-42
+2026-11-17 14:08:40,705 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__xgboost__seed-42
+2026-11-17 14:08:41,262 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__logistic_regression__seed-42
+2026-11-17 14:08:41,309 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__random_forest__seed-42
+2026-11-17 14:08:41,538 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__xgboost__seed-42
+2026-11-17 14:08:42,090 INFO fit scarcity_real__real__budget-0.25__share-0.00__logistic_regression__seed-123
+2026-11-17 14:08:42,136 INFO fit scarcity_real__real__budget-0.25__share-0.00__random_forest__seed-123
+2026-11-17 14:08:42,364 INFO fit scarcity_real__real__budget-0.25__share-0.00__xgboost__seed-123
+2026-11-17 14:08:42,915 INFO generator gaussian_copula seed 123 rows 950
+2026-11-17 14:08:44,129 INFO generator gaussian_copula seed 123 status completed seconds 1.2
+2026-11-17 14:08:44,134 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-123
+2026-11-17 14:08:44,182 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-123
+2026-11-17 14:08:44,418 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-123
+2026-11-17 14:08:44,979 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-123
+2026-11-17 14:08:45,025 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-123
+2026-11-17 14:08:45,253 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-123
+2026-11-17 14:08:45,797 INFO generator ctgan seed 123 rows 950
+2026-11-17 14:09:26,885 INFO CTGAN subprocess exit 0
+2026-11-17 14:09:26,885 INFO generator ctgan seed 123 status completed seconds 39.7
+2026-11-17 14:09:26,894 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__logistic_regression__seed-123
+2026-11-17 14:09:26,945 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__random_forest__seed-123
+2026-11-17 14:09:27,194 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__xgboost__seed-123
+2026-11-17 14:09:27,752 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__logistic_regression__seed-123
+2026-11-17 14:09:27,798 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__random_forest__seed-123
+2026-11-17 14:09:28,035 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__xgboost__seed-123
+2026-11-17 14:09:28,588 INFO fit scarcity_real__real__budget-0.25__share-0.00__logistic_regression__seed-2024
+2026-11-17 14:09:28,634 INFO fit scarcity_real__real__budget-0.25__share-0.00__random_forest__seed-2024
+2026-11-17 14:09:28,869 INFO fit scarcity_real__real__budget-0.25__share-0.00__xgboost__seed-2024
+2026-11-17 14:09:29,415 INFO generator gaussian_copula seed 2024 rows 950
+2026-11-17 14:09:30,760 INFO generator gaussian_copula seed 2024 status completed seconds 1.3
+2026-11-17 14:09:30,765 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:09:30,813 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-2024
+2026-11-17 14:09:31,047 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-2024
+2026-11-17 14:09:31,601 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:09:31,647 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-2024
+2026-11-17 14:09:31,877 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-2024
+2026-11-17 14:09:32,418 INFO generator ctgan seed 2024 rows 950
+2026-11-17 14:10:13,357 INFO CTGAN subprocess exit 0
+2026-11-17 14:10:13,358 INFO generator ctgan seed 2024 status completed seconds 39.6
+2026-11-17 14:10:13,364 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:10:13,417 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__random_forest__seed-2024
+2026-11-17 14:10:13,662 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__xgboost__seed-2024
+2026-11-17 14:10:14,219 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:10:14,265 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__random_forest__seed-2024
+2026-11-17 14:10:14,497 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__xgboost__seed-2024
+2026-11-17 14:10:15,046 INFO fit scarcity_real__real__budget-0.25__share-0.00__logistic_regression__seed-3407
+2026-11-17 14:10:15,092 INFO fit scarcity_real__real__budget-0.25__share-0.00__random_forest__seed-3407
+2026-11-17 14:10:15,318 INFO fit scarcity_real__real__budget-0.25__share-0.00__xgboost__seed-3407
+2026-11-17 14:10:15,860 INFO generator gaussian_copula seed 3407 rows 950
+2026-11-17 14:10:17,128 INFO generator gaussian_copula seed 3407 status completed seconds 1.3
+2026-11-17 14:10:17,133 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:10:17,180 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-3407
+2026-11-17 14:10:17,419 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-3407
+2026-11-17 14:10:17,981 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:10:18,027 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-3407
+2026-11-17 14:10:18,260 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-3407
+2026-11-17 14:10:18,807 INFO generator ctgan seed 3407 rows 950
+2026-11-17 14:11:00,056 INFO CTGAN subprocess exit 0
+2026-11-17 14:11:00,056 INFO generator ctgan seed 3407 status completed seconds 39.9
+2026-11-17 14:11:00,063 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:11:00,116 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__random_forest__seed-3407
+2026-11-17 14:11:00,347 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__xgboost__seed-3407
+2026-11-17 14:11:00,906 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:11:00,952 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__random_forest__seed-3407
+2026-11-17 14:11:01,186 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__xgboost__seed-3407
+2026-11-17 14:11:01,738 INFO fit scarcity_real__real__budget-0.25__share-0.00__logistic_regression__seed-777
+2026-11-17 14:11:01,784 INFO fit scarcity_real__real__budget-0.25__share-0.00__random_forest__seed-777
+2026-11-17 14:11:02,016 INFO fit scarcity_real__real__budget-0.25__share-0.00__xgboost__seed-777
+2026-11-17 14:11:02,562 INFO generator gaussian_copula seed 777 rows 950
+2026-11-17 14:11:03,781 INFO generator gaussian_copula seed 777 status completed seconds 1.2
+2026-11-17 14:11:03,786 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-777
+2026-11-17 14:11:03,835 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-777
+2026-11-17 14:11:04,069 INFO fit scarcity_augmentation__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-777
+2026-11-17 14:11:04,629 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__logistic_regression__seed-777
+2026-11-17 14:11:04,674 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__random_forest__seed-777
+2026-11-17 14:11:04,903 INFO fit scarcity_replacement__gaussian_copula__budget-0.25__share-0.10__xgboost__seed-777
+2026-11-17 14:11:05,444 INFO generator ctgan seed 777 rows 950
+2026-11-17 14:11:46,328 INFO CTGAN subprocess exit 0
+2026-11-17 14:11:46,329 INFO generator ctgan seed 777 status completed seconds 39.6
+2026-11-17 14:11:46,335 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__logistic_regression__seed-777
+2026-11-17 14:11:46,387 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__random_forest__seed-777
+2026-11-17 14:11:46,630 INFO fit scarcity_augmentation__ctgan__budget-0.25__share-0.10__xgboost__seed-777
+2026-11-17 14:11:47,186 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__logistic_regression__seed-777
+2026-11-17 14:11:47,232 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__random_forest__seed-777
+2026-11-17 14:11:47,460 INFO fit scarcity_replacement__ctgan__budget-0.25__share-0.10__xgboost__seed-777
+2026-11-17 14:11:48,014 INFO fit scarcity_real__real__budget-0.50__share-0.00__logistic_regression__seed-42
+2026-11-17 14:11:48,091 INFO fit scarcity_real__real__budget-0.50__share-0.00__random_forest__seed-42
+2026-11-17 14:11:48,384 INFO fit scarcity_real__real__budget-0.50__share-0.00__xgboost__seed-42
+2026-11-17 14:11:48,964 INFO generator gaussian_copula seed 42 rows 1899
+2026-11-17 14:11:51,239 INFO generator gaussian_copula seed 42 status completed seconds 2.3
+2026-11-17 14:11:51,247 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-42
+2026-11-17 14:11:51,335 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-42
+2026-11-17 14:11:51,671 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-42
+2026-11-17 14:11:52,286 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-42
+2026-11-17 14:11:52,364 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-42
+2026-11-17 14:11:52,676 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-42
+2026-11-17 14:11:53,262 INFO generator ctgan seed 42 rows 1899
+2026-11-17 14:13:07,863 INFO CTGAN subprocess exit 0
+2026-11-17 14:13:07,863 INFO generator ctgan seed 42 status completed seconds 73.2
+2026-11-17 14:13:07,874 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__logistic_regression__seed-42
+2026-11-17 14:13:07,963 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__random_forest__seed-42
+2026-11-17 14:13:08,262 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__xgboost__seed-42
+2026-11-17 14:13:08,869 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__logistic_regression__seed-42
+2026-11-17 14:13:08,945 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__random_forest__seed-42
+2026-11-17 14:13:09,239 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__xgboost__seed-42
+2026-11-17 14:13:09,833 INFO fit scarcity_real__real__budget-0.50__share-0.00__logistic_regression__seed-123
+2026-11-17 14:13:09,910 INFO fit scarcity_real__real__budget-0.50__share-0.00__random_forest__seed-123
+2026-11-17 14:13:10,203 INFO fit scarcity_real__real__budget-0.50__share-0.00__xgboost__seed-123
+2026-11-17 14:13:10,783 INFO generator gaussian_copula seed 123 rows 1899
+2026-11-17 14:13:12,827 INFO generator gaussian_copula seed 123 status completed seconds 2.0
+2026-11-17 14:13:12,835 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-123
+2026-11-17 14:13:12,919 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-123
+2026-11-17 14:13:13,220 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-123
+2026-11-17 14:13:13,832 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-123
+2026-11-17 14:13:13,912 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-123
+2026-11-17 14:13:14,212 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-123
+2026-11-17 14:13:14,800 INFO generator ctgan seed 123 rows 1899
+2026-11-17 14:14:29,101 INFO CTGAN subprocess exit 0
+2026-11-17 14:14:29,102 INFO generator ctgan seed 123 status completed seconds 72.9
+2026-11-17 14:14:29,113 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__logistic_regression__seed-123
+2026-11-17 14:14:29,201 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__random_forest__seed-123
+2026-11-17 14:14:29,522 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__xgboost__seed-123
+2026-11-17 14:14:30,130 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__logistic_regression__seed-123
+2026-11-17 14:14:30,207 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__random_forest__seed-123
+2026-11-17 14:14:30,505 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__xgboost__seed-123
+2026-11-17 14:14:31,097 INFO fit scarcity_real__real__budget-0.50__share-0.00__logistic_regression__seed-2024
+2026-11-17 14:14:31,172 INFO fit scarcity_real__real__budget-0.50__share-0.00__random_forest__seed-2024
+2026-11-17 14:14:31,460 INFO fit scarcity_real__real__budget-0.50__share-0.00__xgboost__seed-2024
+2026-11-17 14:14:32,037 INFO generator gaussian_copula seed 2024 rows 1899
+2026-11-17 14:14:34,458 INFO generator gaussian_copula seed 2024 status completed seconds 2.4
+2026-11-17 14:14:34,465 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:14:34,551 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-2024
+2026-11-17 14:14:34,870 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-2024
+2026-11-17 14:14:35,480 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:14:35,555 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-2024
+2026-11-17 14:14:35,856 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-2024
+2026-11-17 14:14:36,441 INFO generator ctgan seed 2024 rows 1899
+2026-11-17 14:15:50,946 INFO CTGAN subprocess exit 0
+2026-11-17 14:15:50,947 INFO generator ctgan seed 2024 status completed seconds 73.0
+2026-11-17 14:15:50,958 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:15:51,047 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__random_forest__seed-2024
+2026-11-17 14:15:51,362 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__xgboost__seed-2024
+2026-11-17 14:15:51,974 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:15:52,048 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__random_forest__seed-2024
+2026-11-17 14:15:52,343 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__xgboost__seed-2024
+2026-11-17 14:15:52,935 INFO fit scarcity_real__real__budget-0.50__share-0.00__logistic_regression__seed-3407
+2026-11-17 14:15:53,011 INFO fit scarcity_real__real__budget-0.50__share-0.00__random_forest__seed-3407
+2026-11-17 14:15:53,304 INFO fit scarcity_real__real__budget-0.50__share-0.00__xgboost__seed-3407
+2026-11-17 14:15:53,883 INFO generator gaussian_copula seed 3407 rows 1899
+2026-11-17 14:15:55,982 INFO generator gaussian_copula seed 3407 status completed seconds 2.1
+2026-11-17 14:15:55,990 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:15:56,072 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-3407
+2026-11-17 14:15:56,377 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-3407
+2026-11-17 14:15:56,990 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:15:57,067 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-3407
+2026-11-17 14:15:57,368 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-3407
+2026-11-17 14:15:57,977 INFO generator ctgan seed 3407 rows 1899
+2026-11-17 14:17:11,981 INFO CTGAN subprocess exit 0
+2026-11-17 14:17:11,981 INFO generator ctgan seed 3407 status completed seconds 72.6
+2026-11-17 14:17:11,991 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:17:12,081 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__random_forest__seed-3407
+2026-11-17 14:17:12,379 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__xgboost__seed-3407
+2026-11-17 14:17:12,992 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:17:13,067 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__random_forest__seed-3407
+2026-11-17 14:17:13,363 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__xgboost__seed-3407
+2026-11-17 14:17:13,957 INFO fit scarcity_real__real__budget-0.50__share-0.00__logistic_regression__seed-777
+2026-11-17 14:17:14,032 INFO fit scarcity_real__real__budget-0.50__share-0.00__random_forest__seed-777
+2026-11-17 14:17:14,326 INFO fit scarcity_real__real__budget-0.50__share-0.00__xgboost__seed-777
+2026-11-17 14:17:14,905 INFO generator gaussian_copula seed 777 rows 1899
+2026-11-17 14:17:17,094 INFO generator gaussian_copula seed 777 status completed seconds 2.2
+2026-11-17 14:17:17,102 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-777
+2026-11-17 14:17:17,186 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-777
+2026-11-17 14:17:17,496 INFO fit scarcity_augmentation__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-777
+2026-11-17 14:17:18,106 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__logistic_regression__seed-777
+2026-11-17 14:17:18,182 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__random_forest__seed-777
+2026-11-17 14:17:18,471 INFO fit scarcity_replacement__gaussian_copula__budget-0.50__share-0.10__xgboost__seed-777
+2026-11-17 14:17:19,056 INFO generator ctgan seed 777 rows 1899
+2026-11-17 14:18:33,757 INFO CTGAN subprocess exit 0
+2026-11-17 14:18:33,757 INFO generator ctgan seed 777 status completed seconds 73.3
+2026-11-17 14:18:33,769 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__logistic_regression__seed-777
+2026-11-17 14:18:33,856 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__random_forest__seed-777
+2026-11-17 14:18:34,168 INFO fit scarcity_augmentation__ctgan__budget-0.50__share-0.10__xgboost__seed-777
+2026-11-17 14:18:34,779 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__logistic_regression__seed-777
+2026-11-17 14:18:34,856 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__random_forest__seed-777
+2026-11-17 14:18:35,144 INFO fit scarcity_replacement__ctgan__budget-0.50__share-0.10__xgboost__seed-777
+2026-11-17 14:18:35,741 INFO fit scarcity_real__real__budget-0.75__share-0.00__logistic_regression__seed-42
+2026-11-17 14:18:35,856 INFO fit scarcity_real__real__budget-0.75__share-0.00__random_forest__seed-42
+2026-11-17 14:18:36,207 INFO fit scarcity_real__real__budget-0.75__share-0.00__xgboost__seed-42
+2026-11-17 14:18:36,826 INFO generator gaussian_copula seed 42 rows 2849
+2026-11-17 14:18:39,950 INFO generator gaussian_copula seed 42 status completed seconds 3.1
+2026-11-17 14:18:39,960 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-42
+2026-11-17 14:18:40,095 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-42
+2026-11-17 14:18:40,647 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-42
+2026-11-17 14:18:41,306 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-42
+2026-11-17 14:18:41,429 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-42
+2026-11-17 14:18:41,855 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-42
+2026-11-17 14:18:42,478 INFO generator ctgan seed 42 rows 2849
+2026-11-17 14:20:30,565 INFO CTGAN subprocess exit 0
+2026-11-17 14:20:30,566 INFO generator ctgan seed 42 status completed seconds 106.6
+2026-11-17 14:20:30,580 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__logistic_regression__seed-42
+2026-11-17 14:20:30,712 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__random_forest__seed-42
+2026-11-17 14:20:31,103 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__xgboost__seed-42
+2026-11-17 14:20:31,754 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__logistic_regression__seed-42
+2026-11-17 14:20:31,867 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__random_forest__seed-42
+2026-11-17 14:20:32,219 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__xgboost__seed-42
+2026-11-17 14:20:32,848 INFO fit scarcity_real__real__budget-0.75__share-0.00__logistic_regression__seed-123
+2026-11-17 14:20:32,960 INFO fit scarcity_real__real__budget-0.75__share-0.00__random_forest__seed-123
+2026-11-17 14:20:33,343 INFO fit scarcity_real__real__budget-0.75__share-0.00__xgboost__seed-123
+2026-11-17 14:20:33,984 INFO generator gaussian_copula seed 123 rows 2849
+2026-11-17 14:20:36,817 INFO generator gaussian_copula seed 123 status completed seconds 2.8
+2026-11-17 14:20:36,828 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-123
+2026-11-17 14:20:36,958 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-123
+2026-11-17 14:20:37,346 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-123
+2026-11-17 14:20:38,004 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-123
+2026-11-17 14:20:38,120 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-123
+2026-11-17 14:20:38,478 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-123
+2026-11-17 14:20:39,101 INFO generator ctgan seed 123 rows 2849
+2026-11-17 14:22:27,329 INFO CTGAN subprocess exit 0
+2026-11-17 14:22:27,329 INFO generator ctgan seed 123 status completed seconds 106.7
+2026-11-17 14:22:27,345 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__logistic_regression__seed-123
+2026-11-17 14:22:27,473 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__random_forest__seed-123
+2026-11-17 14:22:27,868 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__xgboost__seed-123
+2026-11-17 14:22:28,518 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__logistic_regression__seed-123
+2026-11-17 14:22:28,635 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__random_forest__seed-123
+2026-11-17 14:22:29,003 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__xgboost__seed-123
+2026-11-17 14:22:29,658 INFO fit scarcity_real__real__budget-0.75__share-0.00__logistic_regression__seed-2024
+2026-11-17 14:22:29,775 INFO fit scarcity_real__real__budget-0.75__share-0.00__random_forest__seed-2024
+2026-11-17 14:22:30,169 INFO fit scarcity_real__real__budget-0.75__share-0.00__xgboost__seed-2024
+2026-11-17 14:22:30,787 INFO generator gaussian_copula seed 2024 rows 2849
+2026-11-17 14:22:34,082 INFO generator gaussian_copula seed 2024 status completed seconds 3.3
+2026-11-17 14:22:34,092 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:22:34,212 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-2024
+2026-11-17 14:22:34,698 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-2024
+2026-11-17 14:22:35,356 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:22:35,471 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-2024
+2026-11-17 14:22:35,873 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-2024
+2026-11-17 14:22:36,493 INFO generator ctgan seed 2024 rows 2849
+2026-11-17 14:24:24,778 INFO CTGAN subprocess exit 0
+2026-11-17 14:24:24,778 INFO generator ctgan seed 2024 status completed seconds 106.8
+2026-11-17 14:24:24,793 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:24:24,921 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__random_forest__seed-2024
+2026-11-17 14:24:25,314 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__xgboost__seed-2024
+2026-11-17 14:24:25,966 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__logistic_regression__seed-2024
+2026-11-17 14:24:26,082 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__random_forest__seed-2024
+2026-11-17 14:24:26,462 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__xgboost__seed-2024
+2026-11-17 14:24:27,093 INFO fit scarcity_real__real__budget-0.75__share-0.00__logistic_regression__seed-3407
+2026-11-17 14:24:27,209 INFO fit scarcity_real__real__budget-0.75__share-0.00__random_forest__seed-3407
+2026-11-17 14:24:27,620 INFO fit scarcity_real__real__budget-0.75__share-0.00__xgboost__seed-3407
+2026-11-17 14:24:28,239 INFO generator gaussian_copula seed 3407 rows 2849
+2026-11-17 14:24:31,630 INFO generator gaussian_copula seed 3407 status completed seconds 3.4
+2026-11-17 14:24:31,640 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:24:31,768 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-3407
+2026-11-17 14:24:32,247 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-3407
+2026-11-17 14:24:32,907 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:24:33,024 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-3407
+2026-11-17 14:24:33,431 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-3407
+2026-11-17 14:24:34,054 INFO generator ctgan seed 3407 rows 2849
+2026-11-17 14:26:22,131 INFO CTGAN subprocess exit 0
+2026-11-17 14:26:22,131 INFO generator ctgan seed 3407 status completed seconds 106.6
+2026-11-17 14:26:22,147 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:26:22,280 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__random_forest__seed-3407
+2026-11-17 14:26:22,661 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__xgboost__seed-3407
+2026-11-17 14:26:23,319 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__logistic_regression__seed-3407
+2026-11-17 14:26:23,428 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__random_forest__seed-3407
+2026-11-17 14:26:23,812 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__xgboost__seed-3407
+2026-11-17 14:26:24,441 INFO fit scarcity_real__real__budget-0.75__share-0.00__logistic_regression__seed-777
+2026-11-17 14:26:24,554 INFO fit scarcity_real__real__budget-0.75__share-0.00__random_forest__seed-777
+2026-11-17 14:26:24,958 INFO fit scarcity_real__real__budget-0.75__share-0.00__xgboost__seed-777
+2026-11-17 14:26:25,596 INFO generator gaussian_copula seed 777 rows 2849
+2026-11-17 14:26:29,179 INFO generator gaussian_copula seed 777 status completed seconds 3.6
+2026-11-17 14:26:29,190 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-777
+2026-11-17 14:26:29,316 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-777
+2026-11-17 14:26:29,779 INFO fit scarcity_augmentation__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-777
+2026-11-17 14:26:30,443 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__logistic_regression__seed-777
+2026-11-17 14:26:30,550 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__random_forest__seed-777
+2026-11-17 14:26:31,020 INFO fit scarcity_replacement__gaussian_copula__budget-0.75__share-0.10__xgboost__seed-777
+2026-11-17 14:26:31,697 INFO generator ctgan seed 777 rows 2849
+2026-11-17 14:28:19,881 INFO CTGAN subprocess exit 0
+2026-11-17 14:28:19,881 INFO generator ctgan seed 777 status completed seconds 106.7
+2026-11-17 14:28:19,896 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__logistic_regression__seed-777
+2026-11-17 14:28:20,030 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__random_forest__seed-777
+2026-11-17 14:28:20,418 INFO fit scarcity_augmentation__ctgan__budget-0.75__share-0.10__xgboost__seed-777
+2026-11-17 14:28:21,075 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__logistic_regression__seed-777
+2026-11-17 14:28:21,186 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__random_forest__seed-777
+2026-11-17 14:28:21,539 INFO fit scarcity_replacement__ctgan__budget-0.75__share-0.10__xgboost__seed-777
+2026-11-17 14:28:22,667 INFO Aggregated 390 completed runs.
+2026-11-17 14:28:26,041 INFO Wrote study figures to /Users/mj/Cursor/Preeti/Synthetic_Data_ML/results/figures/study
+2026-11-17 14:28:28,110 INFO Wrote freeze manifest.
+2026-11-17 14:28:28,110 INFO Validation-stage run finished. Test metrics were not computed.

@@ -1,0 +1,42 @@
+[project]
+name = "synthetic-data-ml"
+version = "0.1.0"
+description = "Synthetic tabular data study on the UCI Adult Census Income extract."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+authors = [{ name = "Preeti Gorial" }]
+dependencies = [
+    "pandas>=2.2.3",
+    "numpy>=2.1",
+    "scikit-learn>=1.5",
+    "xgboost>=2.1",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "scipy>=1.14",
+    "joblib>=1.4",
+    "fpdf2>=2.8",
+    "markdown>=3.7",
+    "sdv>=2.2.0",
+    "pyyaml>=6.0.3",
+    "python-docx>=1.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "nbformat>=5.10",
+    "nbclient>=0.10",
+    "ipykernel>=6.29",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = ["-q", "-m", "not integration"]
+markers = [
+    "artifacts: requires completed Phase 1 pipeline outputs",
+    "integration: fits a tiny generator and is excluded from the fast suite",
+]

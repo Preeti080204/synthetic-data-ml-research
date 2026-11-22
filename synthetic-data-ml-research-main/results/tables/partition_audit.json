@@ -1,0 +1,13 @@
+{
+  "exact_duplicate_extra_rows": 52,
+  "exact_duplicate_rows_involved": 101,
+  "cross_partition_duplicate_groups": 26,
+  "cross_partition_duplicate_rows": 54,
+  "conflicting_feature_groups": 5,
+  "overlap_source_row_id": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "note": "Source-row overlap counts shared source_row_id values. Cross-partition duplicate counts are identical feature and label contents that occur in more than one partition. Those identical contents are distinct source rows."
+}

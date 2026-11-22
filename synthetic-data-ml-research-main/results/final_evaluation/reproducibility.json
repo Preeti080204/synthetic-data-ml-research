@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "timestamp": "2026-11-17T14:35:55+00:00",
+  "runs": 390,
+  "source_tree_fingerprint": "0b9a8cd5da8d38fca17c7b2ebeb33782cb8e9d6541623bcc5db62152aa47b713",
+  "git_commit": null,
+  "git_note": "The project directory was not a Git repository at audit time.",
+  "freeze_sha256": "e06887586eb1e02a416e3db63bb941f9ec38b30e14dad0db444847fd177d8180",
+  "test_partition_rows": 7327,
+  "analysis_plan": "paired comparisons follow docs/ANALYSIS_PLAN.md; no test-based selection"
+}

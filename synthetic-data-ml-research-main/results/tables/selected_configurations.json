@@ -1,0 +1,108 @@
+{
+  "logistic_regression": {
+    "name": "logistic_regression",
+    "display_name": "Logistic Regression",
+    "params": {
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "random_state": 42,
+      "C": 0.1,
+      "class_weight": null
+    },
+    "metrics": {
+      "roc_auc": 0.9081203901665484,
+      "f1": 0.6562400255346313,
+      "precision": 0.744927536231884,
+      "recall": 0.5864232743867656,
+      "balanced_accuracy": 0.7616308010189705,
+      "threshold": 0.5,
+      "partition": "validation"
+    },
+    "train_seconds": 0.1849119580583647,
+    "search_seconds": 1.1597721669822931,
+    "n_candidates": 6,
+    "selected_candidate": 1,
+    "n_transformed_features": 108,
+    "warnings": [],
+    "model_path": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/models/logistic_regression.joblib",
+    "decision_threshold": 0.5,
+    "positive_class": ">50K",
+    "trained_on": "train",
+    "scored_on": "validation",
+    "refit_on_validation": false
+  },
+  "random_forest": {
+    "name": "random_forest",
+    "display_name": "Random Forest",
+    "params": {
+      "n_estimators": 200,
+      "max_features": "sqrt",
+      "bootstrap": true,
+      "n_jobs": -1,
+      "random_state": 42,
+      "max_depth": 24,
+      "min_samples_leaf": 5
+    },
+    "metrics": {
+      "roc_auc": 0.9196693290085673,
+      "f1": 0.6836268754076973,
+      "precision": 0.7981721249047982,
+      "recall": 0.5978322875071307,
+      "balanced_accuracy": 0.7751407983381697,
+      "threshold": 0.5,
+      "partition": "validation"
+    },
+    "train_seconds": 1.0022774579701945,
+    "search_seconds": 3.6955733749782667,
+    "n_candidates": 4,
+    "selected_candidate": 4,
+    "n_transformed_features": 108,
+    "warnings": [],
+    "model_path": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/models/random_forest.joblib",
+    "decision_threshold": 0.5,
+    "positive_class": ">50K",
+    "trained_on": "train",
+    "scored_on": "validation",
+    "refit_on_validation": false
+  },
+  "xgboost": {
+    "name": "xgboost",
+    "display_name": "XGBoost",
+    "params": {
+      "n_estimators": 200,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "min_child_weight": 1,
+      "reg_lambda": 1.0,
+      "objective": "binary:logistic",
+      "eval_metric": "logloss",
+      "tree_method": "hist",
+      "n_jobs": -1,
+      "random_state": 42,
+      "verbosity": 0,
+      "max_depth": 6,
+      "learning_rate": 0.05
+    },
+    "metrics": {
+      "roc_auc": 0.931336083875183,
+      "f1": 0.7224143351147438,
+      "precision": 0.8046218487394958,
+      "recall": 0.6554478037649744,
+      "balanced_accuracy": 0.802692500482882,
+      "threshold": 0.5,
+      "partition": "validation"
+    },
+    "train_seconds": 0.8416059159208089,
+    "search_seconds": 2.983508041012101,
+    "n_candidates": 4,
+    "selected_candidate": 3,
+    "n_transformed_features": 108,
+    "warnings": [],
+    "model_path": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/models/xgboost.joblib",
+    "decision_threshold": 0.5,
+    "positive_class": ">50K",
+    "trained_on": "train",
+    "scored_on": "validation",
+    "refit_on_validation": false
+  }
+}

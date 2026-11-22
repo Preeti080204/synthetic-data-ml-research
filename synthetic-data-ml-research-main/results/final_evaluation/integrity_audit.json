@@ -1,0 +1,12 @@
+{
+  "runs": 390,
+  "failures": [],
+  "freeze_sha256": "e06887586eb1e02a416e3db63bb941f9ec38b30e14dad0db444847fd177d8180",
+  "authorization_reviewer": "User request, 2026-11-17",
+  "authorization_statement": "Recorded in results/frozen/post_evaluation_status.json.",
+  "evaluation_timestamp": "2026-11-17T14:35:55+00:00",
+  "source_tree_fingerprint": "0b9a8cd5da8d38fca17c7b2ebeb33782cb8e9d6541623bcc5db62152aa47b713",
+  "git_commit": null,
+  "test_based_selection": false,
+  "freeze_still_says_test_metrics_computed": false
+}

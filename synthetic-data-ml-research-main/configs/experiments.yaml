@@ -1,0 +1,97 @@
+# Validation-stage experiment design.
+# The held-out test partition is not an input to this configuration.
+# Ratios, seeds, and the scarcity selection rule are fixed before utility results.
+
+primary_metric: roc_auc
+secondary_metrics: [f1, precision, recall, balanced_accuracy]
+decision_threshold: 0.5
+positive_class: ">50K"
+
+seeds: [42, 123, 2024, 3407, 777]
+synthetic_shares: [0.0, 0.10, 0.25, 0.50, 0.75, 1.0]
+generators: [gaussian_copula, ctgan]
+classifiers: [logistic_regression, random_forest, xgboost]
+
+training_size: frozen_train_count
+rounding: python_round_half_to_even
+sampling:
+  real: stratified_without_replacement
+  synthetic: stratified_without_replacement
+  combine_shuffle_seed: repetition_seed
+  oversample_real_rows: false
+
+real_only:
+  shared_across_generators: true
+  label: real_only_baseline
+  note: >
+    The 0% condition is one shared real-only baseline. It is not refit once
+    per generator. A 100% condition is synthetic-only training and is labelled
+    separately from augmentation.
+
+hyperparameters:
+  source: results/tables/selected_configurations.json
+  random_state: repetition_seed
+  retune: false
+
+scarcity:
+  budgets: [0.25, 0.50, 0.75]
+  subset: stratified_without_replacement
+  preserve_validation_and_test: true
+  ratio_rule:
+    candidate_shares: [0.10, 0.25, 0.50, 0.75, 1.00]
+    score: mean_validation_roc_auc
+    pool: all_three_classifiers_and_five_seeds
+    tie_break: smaller_share
+    if_winner_is_synthetic_only: >
+      A share of 1.0 is synthetic-only training, not augmentation. If it wins,
+      the augmentation ratio is the best share strictly below 1.0 under the
+      same score and tie-break.
+    generator_specific: true
+    shared_ratio: >
+      Also record the single share, excluding 1.0, with the highest mean
+      validation ROC-AUC across both generators, all classifiers, and all
+      seeds. Both generators are trained at that shared ratio so a
+      cross-generator comparison can hold the augmented training size constant.
+  augmentation:
+    definition: >
+      Keep every real row in the budget subset and add synthetic rows drawn
+      from a generator fit only on that subset. The number of synthetic rows
+      is round(n_budget * r / (1 - r)), so the synthetic fraction of the
+      enlarged training set equals r. The real-only comparison model is trained
+      on the same n_budget rows and on no synthetic rows. Training size
+      therefore increases. This comparison is not a fixed-size replacement.
+  replacement:
+    definition: >
+      Separate analysis. Training size stays equal to n_budget. The synthetic
+      count is round(r * n_budget) and the real count is n_budget minus that
+      number. Real rows are a stratified subset of the budget subset. This
+      comparison is not the augmentation analysis.
+
+statistics:
+  pairing: matched_seed
+  interval: student_t_95
+  degrees_of_freedom: n_seeds_minus_one
+  zero_variance: report_point_and_do_not_invent_noise
+  hypothesis_tests: descriptive_paired_t
+  claim_language: >
+    With five seeds, intervals and paired tests are descriptive. Do not
+    describe a result as established solely because an interval excludes zero.
+
+quality:
+  uses_test_partition: false
+  numeric_distances: [kolmogorov_smirnov, wasserstein]
+  quantiles: [0.1, 0.5, 0.9]
+  categorical_distance: total_variation
+  dependence: spearman_frobenius
+  target_association: cramers_v
+  near_duplicate:
+    encoding: ordinal_categories_and_standard_scaled_numerics_fit_on_training
+    distance: euclidean
+    training_reference_rows: 8000
+    query_rows: 2000
+    threshold: first_percentile_of_training_to_training_nearest_neighbor_distance
+    privacy_claim: false
+
+test_evaluation:
+  enabled: false
+  requires_flag: "--final-test"

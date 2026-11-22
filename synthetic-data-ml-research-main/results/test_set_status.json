@@ -1,0 +1,10 @@
+{
+  "phase": 1,
+  "test_predictions_computed": false,
+  "test_metrics_computed": false,
+  "test_used_for_model_selection": false,
+  "test_used_for_preprocessing_fit": false,
+  "validation_metrics_computed": true,
+  "identity_audit_includes_test_rows": true,
+  "identity_audit_purpose": "Confirm that source-row identifiers do not overlap and report identical feature-label contents that fall in more than one partition. No predictive metric was calculated on the test partition."
+}

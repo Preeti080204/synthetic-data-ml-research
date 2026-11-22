@@ -1,0 +1,63 @@
+# Generator settings for the validation-stage study.
+# The epoch budget was fixed from a timing benchmark before any
+# predictive-utility result was computed. Do not retune it from validation AUC.
+
+table_name: adult
+missing_level: Missing
+seeds: [42, 123, 2024, 3407, 777]
+
+# Invalid target labels are not dropped silently. Up to three sampling rounds
+# may be used to reach N rows with a label in {<=50K, >50K}. Every round is logged.
+# Rows are never duplicated to fill a shortfall. A shortfall fails that generator run.
+invalid_target_policy:
+  name: resample_until_n
+  max_rounds: 3
+  valid_labels: ["<=50K", ">50K"]
+
+gaussian_copula:
+  default_distribution: beta
+  enforce_min_max_values: true
+  enforce_rounding: true
+  distribution_note: >
+    The dependence model is a Gaussian copula. Marginal distributions use the
+    SDV default beta distribution, which is recorded explicitly here. Beta
+    marginals are not a claim that the Adult features are Gaussian or beta
+    in the population.
+
+ctgan:
+  epochs: 80
+  batch_size: 500
+  embedding_dim: 128
+  generator_dim: [256, 256]
+  discriminator_dim: [256, 256]
+  generator_lr: 0.0002
+  generator_decay: 0.000001
+  discriminator_lr: 0.0002
+  discriminator_decay: 0.000001
+  discriminator_steps: 1
+  log_frequency: true
+  pac: 10
+  enable_gpu: false
+  verbose: false
+  epoch_budget:
+    benchmark_rows: 34189
+    benchmark_epochs: 2
+    benchmark_seconds: 18.9
+    seconds_per_epoch: 9.4
+    library_default_epochs: 300
+    projected_300_epoch_fit_minutes: 47
+    projected_full_matrix_hours_at_300: 9.8
+    chosen_epochs: 80
+    rationale: >
+      Two CTGAN epochs on the full training partition took 18.9 seconds with
+      MPS. An 80-epoch MPS fit then stalled inside a PyTorch zero-fill and was
+      stopped before any classifier was trained. One CPU epoch on the same
+      34,189 rows, including a 30-row sample, took 13.2 seconds. The full study
+      therefore uses CPU (enable_gpu false) and keeps 80 epochs. That choice
+      was made before any full-data validation ROC-AUC was computed. It remains
+      shorter than the library default of 300 and can disadvantage CTGAN.
+
+sampling_seed_protocol: >
+  Before fit, NumPy, Python random, and PyTorch (including MPS when present)
+  are seeded with the run seed. After fit, the synthesizer sampling RNG is set
+  to the same seed. Extra invalid-label rounds use seed + round * 10007.

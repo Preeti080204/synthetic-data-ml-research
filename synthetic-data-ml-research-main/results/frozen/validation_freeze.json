@@ -1,0 +1,63 @@
+{
+  "stage": "validation_frozen",
+  "timestamp": "2026-11-17T13:28:28+00:00",
+  "test_metrics_computed": false,
+  "final_test_authorized": false,
+  "fingerprints": {
+    "adult_combined": "c344181b939ef1e3dda47258950b401bd7e2aa07671606cfe3d6bd64c579c3ef",
+    "split_indices": "1759bd9d8f979379f8e2931c11038ce173e6971b19b1c09fe1523ab8ede0dd3c",
+    "selected_configurations": "4986d28ccd7de5eb97064800651fd367891a987a5ccf3120809aa27c0fe6871e",
+    "experiments_yaml": "802b652d4654295b476518ad307403e931ac527a655c8ee09c5d61137fae3ab7",
+    "generators_yaml": "499d07fb2e307e31b31c926fe9228dcd5d7c4df71850850eb75b29c188259e41",
+    "analysis_plan": "d9528b050c3ab4f93b582e32f87d995b9687e872ff06e75415ceec4d36e04f12"
+  },
+  "seeds": [
+    42,
+    123,
+    2024,
+    3407,
+    777
+  ],
+  "ctgan_epochs": 80,
+  "gaussian_copula": {
+    "default_distribution": "beta",
+    "enforce_min_max_values": true,
+    "enforce_rounding": true
+  },
+  "selected_augmentation": {
+    "rule": "Highest mean validation ROC-AUC across classifiers and seeds. Ties take the smaller share. A share of 1.0 is not an augmentation ratio.",
+    "generators": {
+      "ctgan": {
+        "mean_roc_auc_by_share": {
+          "0.1": 0.9187881245132156,
+          "0.25": 0.9172942084501555,
+          "0.5": 0.9135032893462959,
+          "0.75": 0.9070197605758649,
+          "1.0": 0.8854132945540165
+        },
+        "best_share_including_synthetic_only": 0.1,
+        "augmentation_share": 0.1
+      },
+      "gaussian_copula": {
+        "mean_roc_auc_by_share": {
+          "0.1": 0.9118260641050876,
+          "0.25": 0.9093778723626978,
+          "0.5": 0.9045380596768702,
+          "0.75": 0.8970678106114741,
+          "1.0": 0.8535712602871934
+        },
+        "best_share_including_synthetic_only": 0.1,
+        "augmentation_share": 0.1
+      }
+    },
+    "shared_augmentation_share": 0.1,
+    "shared_mean_roc_auc_by_share": {
+      "0.1": 0.9153070943091516,
+      "0.25": 0.9133360404064267,
+      "0.5": 0.909020674511583,
+      "0.75": 0.9020437855936694
+    }
+  },
+  "analysis_plan": "/Users/mj/Cursor/Preeti/Synthetic_Data_ML/docs/ANALYSIS_PLAN.md",
+  "note": "Validation results and this manifest were frozen before any held-out test metric was computed."
+}

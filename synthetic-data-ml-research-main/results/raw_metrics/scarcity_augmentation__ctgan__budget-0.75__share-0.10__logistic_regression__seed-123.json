@@ -1,0 +1,42 @@
+{
+  "experiment_id": "scarcity_augmentation__ctgan__budget-0.75__share-0.10__logistic_regression__seed-123",
+  "stage": "scarcity_augmentation",
+  "generator": "ctgan",
+  "synthetic_share": 0.1,
+  "real_share": null,
+  "seed": 123,
+  "budget": 0.75,
+  "comparison": "generator_specific_and_shared",
+  "n_real": 25642,
+  "n_synthetic": 2849,
+  "dataset_fingerprint": "c344181b939ef1e3dda47258950b401bd7e2aa07671606cfe3d6bd64c579c3ef",
+  "split_fingerprint": "1759bd9d8f979379f8e2931c11038ce173e6971b19b1c09fe1523ab8ede0dd3c",
+  "config_fingerprint": "802b652d4654295b476518ad307403e931ac527a655c8ee09c5d61137fae3ab7",
+  "artifact_paths": {},
+  "test_metrics_computed": false,
+  "rss_mb_before": 786.28125,
+  "status": "completed",
+  "timestamp": "2026-11-17T13:22:27+00:00",
+  "classifier": "logistic_regression",
+  "hyperparameters": {
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "random_state": 123,
+    "C": 0.1,
+    "class_weight": null
+  },
+  "training_seconds": 0.12155712500680238,
+  "metrics": {
+    "roc_auc": 0.9081029890160868,
+    "f1": 0.6600953895071542,
+    "precision": 0.7456896551724138,
+    "recall": 0.5921277809469481,
+    "balanced_accuracy": 0.764303617729889,
+    "threshold": 0.5,
+    "partition": "validation"
+  },
+  "n_train": 28491,
+  "positive_rate_train": 0.2377943912112597,
+  "scored_on": "validation",
+  "cache": "miss"
+}

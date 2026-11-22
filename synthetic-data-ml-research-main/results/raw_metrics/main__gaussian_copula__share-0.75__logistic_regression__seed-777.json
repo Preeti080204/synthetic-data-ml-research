@@ -1,0 +1,42 @@
+{
+  "experiment_id": "main__gaussian_copula__share-0.75__logistic_regression__seed-777",
+  "stage": "main",
+  "generator": "gaussian_copula",
+  "synthetic_share": 0.75,
+  "real_share": 0.25,
+  "seed": 777,
+  "budget": null,
+  "comparison": "mixture",
+  "n_real": 8547,
+  "n_synthetic": 25642,
+  "dataset_fingerprint": "c344181b939ef1e3dda47258950b401bd7e2aa07671606cfe3d6bd64c579c3ef",
+  "split_fingerprint": "1759bd9d8f979379f8e2931c11038ce173e6971b19b1c09fe1523ab8ede0dd3c",
+  "config_fingerprint": "802b652d4654295b476518ad307403e931ac527a655c8ee09c5d61137fae3ab7",
+  "artifact_paths": {},
+  "test_metrics_computed": false,
+  "rss_mb_before": 666.6875,
+  "status": "completed",
+  "timestamp": "2026-11-17T13:07:39+00:00",
+  "classifier": "logistic_regression",
+  "hyperparameters": {
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "random_state": 777,
+    "C": 0.1,
+    "class_weight": null
+  },
+  "training_seconds": 0.1450384579366073,
+  "metrics": {
+    "roc_auc": 0.880424412012567,
+    "f1": 0.4044368600682594,
+    "precision": 0.8020304568527918,
+    "recall": 0.2703936109526526,
+    "balanced_accuracy": 0.6246997661797176,
+    "threshold": 0.5,
+    "partition": "validation"
+  },
+  "n_train": 34189,
+  "positive_rate_train": 0.23940448682324725,
+  "scored_on": "validation",
+  "cache": "miss"
+}

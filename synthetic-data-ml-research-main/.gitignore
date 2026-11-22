@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
+results/smoke/
+*.pyc
+*.pyo
+
+.env
+.env.*
+credentials.json
+*.pem
+
+# Private source documents and the authorization record.
+docs/source_documents/
+results/frozen/FINAL_TEST_AUTHORIZED

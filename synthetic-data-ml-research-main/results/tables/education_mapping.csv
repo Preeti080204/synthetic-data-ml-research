@@ -1,0 +1,17 @@
+education,min,max,nunique,count
+Preschool,1,1,1,83
+1st-4th,2,2,1,247
+5th-6th,3,3,1,509
+7th-8th,4,4,1,955
+9th,5,5,1,756
+10th,6,6,1,1389
+11th,7,7,1,1812
+12th,8,8,1,657
+HS-grad,9,9,1,15784
+Some-college,10,10,1,10878
+Assoc-voc,11,11,1,2061
+Assoc-acdm,12,12,1,1601
+Bachelors,13,13,1,8025
+Masters,14,14,1,2657
+Prof-school,15,15,1,834
+Doctorate,16,16,1,594

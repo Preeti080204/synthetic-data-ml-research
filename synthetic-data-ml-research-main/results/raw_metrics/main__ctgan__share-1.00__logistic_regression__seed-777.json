@@ -1,0 +1,42 @@
+{
+  "experiment_id": "main__ctgan__share-1.00__logistic_regression__seed-777",
+  "stage": "main",
+  "generator": "ctgan",
+  "synthetic_share": 1.0,
+  "real_share": 0.0,
+  "seed": 777,
+  "budget": null,
+  "comparison": "mixture",
+  "n_real": 0,
+  "n_synthetic": 34189,
+  "dataset_fingerprint": "c344181b939ef1e3dda47258950b401bd7e2aa07671606cfe3d6bd64c579c3ef",
+  "split_fingerprint": "1759bd9d8f979379f8e2931c11038ce173e6971b19b1c09fe1523ab8ede0dd3c",
+  "config_fingerprint": "802b652d4654295b476518ad307403e931ac527a655c8ee09c5d61137fae3ab7",
+  "artifact_paths": {},
+  "test_metrics_computed": false,
+  "rss_mb_before": 666.6875,
+  "status": "completed",
+  "timestamp": "2026-11-17T13:07:47+00:00",
+  "classifier": "logistic_regression",
+  "hyperparameters": {
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "random_state": 777,
+    "C": 0.1,
+    "class_weight": null
+  },
+  "training_seconds": 0.14069183391984552,
+  "metrics": {
+    "roc_auc": 0.889193363528765,
+    "f1": 0.616754617414248,
+    "precision": 0.7310398749022674,
+    "recall": 0.5333713633770679,
+    "balanced_accuracy": 0.7358225917908128,
+    "threshold": 0.5,
+    "partition": "validation"
+  },
+  "n_train": 34189,
+  "positive_rate_train": 0.20123431513059756,
+  "scored_on": "validation",
+  "cache": "miss"
+}

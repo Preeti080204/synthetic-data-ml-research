@@ -1,0 +1,14 @@
+{
+  "purpose": "SHA-256 of Phase 1 artifacts recorded before the synthetic-data study. These files are a preserved reference and are not rewritten by the study pipeline.",
+  "algorithm": "sha256",
+  "files": {
+    "results/tables/validation_metrics.csv": "75433a308254586cf27b385425204941b959dcd6a93fd6867d8b07c8898a3ffa",
+    "data/processed/split_indices.csv": "1759bd9d8f979379f8e2931c11038ce173e6971b19b1c09fe1523ab8ede0dd3c",
+    "results/tables/selected_configurations.json": "4986d28ccd7de5eb97064800651fd367891a987a5ccf3120809aa27c0fe6871e",
+    "models/logistic_regression.joblib": "4de4f87d94a0a42f84cdba9b0b76d6bdc7fcc867982c6270f798ccf3a3d959a9",
+    "models/random_forest.joblib": "5931d0543135bf3d3f17273be3193f151cdedc4720714250ca5e660194d5d8c2",
+    "models/xgboost.joblib": "8fd22604e7c00f130f4b5ac497b86627a096598eff4d176dd49ccf9ea220a44f",
+    "reports/phase_1_report.md": "97211385e73ce0fc4ff0902e12c4ba0111ce7620d66e33f7c80d05ec4c172c1c",
+    "results/test_set_status.json": "6b8af0aa771bacca59ab997d518f47c3320573af969c99d4336f0d286e2c3ea4"
+  }
+}

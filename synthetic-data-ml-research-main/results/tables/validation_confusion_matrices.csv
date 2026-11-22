@@ -1,0 +1,4 @@
+model,true_le_50k_pred_le_50k,true_le_50k_pred_gt_50k,true_gt_50k_pred_le_50k,true_gt_50k_pred_gt_50k
+logistic_regression,5221,352,725,1028
+random_forest,5308,265,705,1048
+xgboost,5294,279,604,1149

@@ -1,0 +1,22 @@
+report_stage: validation
+title: Can Synthetic Data Improve Machine Learning?
+subtitle: An Experimental Investigation of Synthetic Tabular Data Quality, Augmentation, and Predictive Utility
+student: Preeti Gorial
+project: Projet Étudiant
+institution: Université de Technologie de Troyes (UTT)
+academic_year: 2026–2027
+interim_markdown: reports/interim/Preeti_Gorial_Synthetic_Data_Validation_Report.md
+interim_pdf: reports/interim/Preeti_Gorial_Synthetic_Data_Validation_Report.pdf
+interim_docx: reports/interim/Preeti_Gorial_Synthetic_Data_Validation_Report.docx
+final_pdf_reserved: reports/final/Preeti_Gorial_Synthetic_Data_Research_Report.pdf
+final_docx_reserved: reports/final/Preeti_Gorial_Synthetic_Data_Research_Report.docx
+final_documents_written: false
+colors:
+  navy: "#1B3A4B"
+  teal: "#1F7A8C"
+  muted_blue: "#5C7C99"
+  grey: "#6B7280"
+  body: "#2D343A"
+  row_shade: "#F4F7F8"
+page: A4
+test_results_included: false
